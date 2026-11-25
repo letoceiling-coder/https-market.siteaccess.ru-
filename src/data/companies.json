@@ -1,0 +1,23 @@
+[
+  {
+    "id": "company-layout-mock",
+    "slug": "maket-profilya",
+    "name": "Макет профиля",
+    "summary": "Так будет выглядеть карточка компании после модерации. Это не организация и не партнёр HELP HOMES.",
+    "regions": [],
+    "directions": [
+      "otoplenie",
+      "vodosnabzhenie"
+    ],
+    "contactsPublished": false,
+    "portfolioPublished": false,
+    "status": "demo",
+    "origin": {
+      "kind": "interface_demo",
+      "note": "Демонстрация интерфейса. Запись не является объявлением, компанией или объектом продажи."
+    },
+    "imageId": "house-concrete",
+    "createdAt": "2026-11-01T09:00:00.000Z",
+    "updatedAt": "2026-11-01T09:00:00.000Z"
+  }
+]

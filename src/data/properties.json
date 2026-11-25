@@ -1,0 +1,296 @@
+[
+  {
+    "id": "prop-demo-dom-dva-etazha",
+    "slug": "demo-dom-dva-etazha",
+    "kind": "house",
+    "title": "Демонстрационная карточка: двухэтажный дом",
+    "summary": "Пример характеристик для проверки фильтров. Объект не продаётся.",
+    "regionId": "moskovskaya-oblast",
+    "locationPrecision": "region_only",
+    "houseArea": 186,
+    "landArea": 12,
+    "floors": 2,
+    "purpose": "ИЖС",
+    "readiness": "Коробка с кровлей",
+    "wallMaterial": "Газобетон",
+    "communications": {
+      "water": true,
+      "heating": false,
+      "gas": false,
+      "electricity": true,
+      "sewage": false,
+      "access": "Проезд по грунту, зимой не проверялся"
+    },
+    "documentsNote": "Документы, кадастровый номер и точный адрес отсутствуют: карточка демонстрирует поля интерфейса.",
+    "imageIds": [
+      "house-trees",
+      "house-concrete",
+      "kitchen"
+    ],
+    "status": "demo",
+    "origin": {
+      "kind": "interface_demo",
+      "note": "Демонстрация интерфейса. Запись не является объявлением, компанией или объектом продажи."
+    },
+    "price": null,
+    "createdAt": "2026-11-01T09:00:00.000Z",
+    "updatedAt": "2026-11-01T09:00:00.000Z"
+  },
+  {
+    "id": "prop-demo-karkas",
+    "slug": "demo-karkas",
+    "kind": "cottage",
+    "title": "Демонстрационная карточка: каркасный коттедж",
+    "summary": "Пример карточки коттеджа. Это не объявление собственника.",
+    "regionId": "leningradskaya-oblast",
+    "locationPrecision": "region_only",
+    "houseArea": 124,
+    "landArea": 8,
+    "floors": 2,
+    "purpose": "ИЖС",
+    "readiness": "Тёплый контур",
+    "wallMaterial": "Каркас",
+    "communications": {
+      "water": true,
+      "heating": true,
+      "gas": false,
+      "electricity": true,
+      "sewage": true,
+      "access": "Круглогодичный подъезд по описанию образца"
+    },
+    "documentsNote": "Документы, кадастровый номер и точный адрес отсутствуют: карточка демонстрирует поля интерфейса.",
+    "imageIds": [
+      "house-wood",
+      "house-lake",
+      "kitchen-wood"
+    ],
+    "status": "demo",
+    "origin": {
+      "kind": "interface_demo",
+      "note": "Демонстрация интерфейса. Запись не является объявлением, компанией или объектом продажи."
+    },
+    "price": null,
+    "createdAt": "2026-11-01T09:00:00.000Z",
+    "updatedAt": "2026-11-01T09:00:00.000Z"
+  },
+  {
+    "id": "prop-demo-kirpich",
+    "slug": "demo-kirpich",
+    "kind": "house",
+    "title": "Демонстрационная карточка: кирпичный дом",
+    "summary": "Набор полей без адреса и цены.",
+    "regionId": "kaluzhskaya-oblast",
+    "locationPrecision": "region_only",
+    "houseArea": 210,
+    "landArea": 15,
+    "floors": 2,
+    "purpose": "ИЖС",
+    "readiness": "Под отделку",
+    "wallMaterial": "Кирпич",
+    "communications": {
+      "water": true,
+      "heating": true,
+      "gas": true,
+      "electricity": true,
+      "sewage": true,
+      "access": "Дорога с твёрдым покрытием в образце"
+    },
+    "documentsNote": "Документы, кадастровый номер и точный адрес отсутствуют: карточка демонстрирует поля интерфейса.",
+    "imageIds": [
+      "house-brick",
+      "house-door",
+      "bathroom"
+    ],
+    "status": "demo",
+    "origin": {
+      "kind": "interface_demo",
+      "note": "Демонстрация интерфейса. Запись не является объявлением, компанией или объектом продажи."
+    },
+    "price": null,
+    "createdAt": "2026-11-01T09:00:00.000Z",
+    "updatedAt": "2026-11-01T09:00:00.000Z"
+  },
+  {
+    "id": "prop-demo-odnoetazhnyy",
+    "slug": "demo-odnoetazhnyy",
+    "kind": "house",
+    "title": "Демонстрационная карточка: одноэтажный дом",
+    "summary": "Короткий образец для фильтра этажности и площади.",
+    "regionId": "tulskaya-oblast",
+    "locationPrecision": "region_only",
+    "houseArea": 96,
+    "landArea": 10,
+    "floors": 1,
+    "purpose": "ИЖС",
+    "readiness": "Коробка",
+    "wallMaterial": "Газобетон",
+    "communications": {
+      "water": false,
+      "heating": false,
+      "gas": false,
+      "electricity": true,
+      "sewage": false,
+      "access": "Подъезд только в сухой сезон — в образце"
+    },
+    "documentsNote": "Документы, кадастровый номер и точный адрес отсутствуют: карточка демонстрирует поля интерфейса.",
+    "imageIds": [
+      "stone-house",
+      "house-door",
+      "house-concrete"
+    ],
+    "status": "demo",
+    "origin": {
+      "kind": "interface_demo",
+      "note": "Демонстрация интерфейса. Запись не является объявлением, компанией или объектом продажи."
+    },
+    "price": null,
+    "createdAt": "2026-11-01T09:00:00.000Z",
+    "updatedAt": "2026-11-01T09:00:00.000Z"
+  },
+  {
+    "id": "prop-demo-u-vody",
+    "slug": "demo-u-vody",
+    "kind": "cottage",
+    "title": "Демонстрационная карточка: дом у воды",
+    "summary": "Фотография берега не означает конкретный адрес.",
+    "regionId": "krasnodarskiy-kray",
+    "locationPrecision": "region_only",
+    "houseArea": 140,
+    "landArea": 9,
+    "floors": 1,
+    "purpose": "ИЖС",
+    "readiness": "Готов к сезонной проверке",
+    "wallMaterial": "Дерево",
+    "communications": {
+      "water": true,
+      "heating": false,
+      "gas": false,
+      "electricity": true,
+      "sewage": false,
+      "access": "Узкий проезд в образце"
+    },
+    "documentsNote": "Документы, кадастровый номер и точный адрес отсутствуют: карточка демонстрирует поля интерфейса.",
+    "imageIds": [
+      "house-lake",
+      "house-wood",
+      "field"
+    ],
+    "status": "demo",
+    "origin": {
+      "kind": "interface_demo",
+      "note": "Демонстрация интерфейса. Запись не является объявлением, компанией или объектом продажи."
+    },
+    "price": null,
+    "createdAt": "2026-11-01T09:00:00.000Z",
+    "updatedAt": "2026-11-01T09:00:00.000Z"
+  },
+  {
+    "id": "prop-demo-uchastok-izhs",
+    "slug": "demo-uchastok-izhs",
+    "kind": "land",
+    "title": "Демонстрационная карточка: участок ИЖС",
+    "summary": "Пример земельного фильтра. Участок не предлагается к продаже.",
+    "regionId": "moskovskaya-oblast",
+    "locationPrecision": "region_only",
+    "houseArea": null,
+    "landArea": 14,
+    "floors": null,
+    "purpose": "ИЖС",
+    "readiness": "Свободный",
+    "wallMaterial": null,
+    "communications": {
+      "water": false,
+      "heating": null,
+      "gas": true,
+      "electricity": true,
+      "sewage": false,
+      "access": "Выезд на местную дорогу в образце"
+    },
+    "documentsNote": "Документы, кадастровый номер и точный адрес отсутствуют: карточка демонстрирует поля интерфейса.",
+    "imageIds": [
+      "field",
+      "house-field"
+    ],
+    "status": "demo",
+    "origin": {
+      "kind": "interface_demo",
+      "note": "Демонстрация интерфейса. Запись не является объявлением, компанией или объектом продажи."
+    },
+    "price": null,
+    "createdAt": "2026-11-01T09:00:00.000Z",
+    "updatedAt": "2026-11-01T09:00:00.000Z"
+  },
+  {
+    "id": "prop-demo-uchastok-sad",
+    "slug": "demo-uchastok-sad",
+    "kind": "land",
+    "title": "Демонстрационная карточка: садовый участок",
+    "summary": "Назначение в образце — садовый, чтобы фильтр отличал его от ИЖС.",
+    "regionId": "kaluzhskaya-oblast",
+    "locationPrecision": "region_only",
+    "houseArea": null,
+    "landArea": 6,
+    "floors": null,
+    "purpose": "Садовый",
+    "readiness": "Свободный",
+    "wallMaterial": null,
+    "communications": {
+      "water": false,
+      "heating": null,
+      "gas": false,
+      "electricity": false,
+      "sewage": false,
+      "access": "Пеший подход и грунт"
+    },
+    "documentsNote": "Документы, кадастровый номер и точный адрес отсутствуют: карточка демонстрирует поля интерфейса.",
+    "imageIds": [
+      "field",
+      "house-lawn"
+    ],
+    "status": "demo",
+    "origin": {
+      "kind": "interface_demo",
+      "note": "Демонстрация интерфейса. Запись не является объявлением, компанией или объектом продажи."
+    },
+    "price": null,
+    "createdAt": "2026-11-01T09:00:00.000Z",
+    "updatedAt": "2026-11-01T09:00:00.000Z"
+  },
+  {
+    "id": "prop-demo-uchastok-seti",
+    "slug": "demo-uchastok-seti",
+    "kind": "land",
+    "title": "Демонстрационная карточка: участок с сетями по границе",
+    "summary": "Коммуникации отмечены как «по границе образца», без документов.",
+    "regionId": "leningradskaya-oblast",
+    "locationPrecision": "region_only",
+    "houseArea": null,
+    "landArea": 11,
+    "floors": null,
+    "purpose": "ИЖС",
+    "readiness": "Свободный",
+    "wallMaterial": null,
+    "communications": {
+      "water": true,
+      "heating": null,
+      "gas": true,
+      "electricity": true,
+      "sewage": true,
+      "access": "Круглогодичный подъезд в образце"
+    },
+    "documentsNote": "Документы, кадастровый номер и точный адрес отсутствуют: карточка демонстрирует поля интерфейса.",
+    "imageIds": [
+      "house-lawn",
+      "field",
+      "house-concrete"
+    ],
+    "status": "demo",
+    "origin": {
+      "kind": "interface_demo",
+      "note": "Демонстрация интерфейса. Запись не является объявлением, компанией или объектом продажи."
+    },
+    "price": null,
+    "createdAt": "2026-11-01T09:00:00.000Z",
+    "updatedAt": "2026-11-01T09:00:00.000Z"
+  }
+]

@@ -1,0 +1,3197 @@
+[
+  {
+    "id": "demo-car-coupe",
+    "slug": "car-coupe",
+    "demo": true,
+    "kind": "vehicle",
+    "categoryPath": "transport/legkovye/s-probegom",
+    "title": "Купе, 2017, 62 000 км",
+    "facts": [
+      "2017",
+      "62 000 км",
+      "АКПП"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "С пробегом"
+      ],
+      [
+        "Год выпуска",
+        "2017"
+      ],
+      [
+        "Пробег",
+        "62 000 км"
+      ],
+      [
+        "Коробка",
+        "Автомат"
+      ],
+      [
+        "Привод",
+        "Задний"
+      ]
+    ],
+    "description": "Тестовое описание: ухоженный автомобиль, один владелец, обслуживание по регламенту. Данные вымышлены для проверки карточки.",
+    "regionId": "moskva",
+    "place": "Москва, СЗАО",
+    "postedAt": "2026-11-01",
+    "imageId": "d-car-gray",
+    "gallery": [
+      "d-car-gray"
+    ],
+    "price": 1850000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "year": "2017",
+      "mileage": "62000"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-car-suv",
+    "slug": "car-suv",
+    "demo": true,
+    "kind": "vehicle",
+    "categoryPath": "transport/legkovye/s-probegom",
+    "title": "Внедорожник, 2019, 78 000 км",
+    "facts": [
+      "2019",
+      "78 000 км",
+      "Полный привод"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "С пробегом"
+      ],
+      [
+        "Год выпуска",
+        "2019"
+      ],
+      [
+        "Пробег",
+        "78 000 км"
+      ],
+      [
+        "Привод",
+        "Полный"
+      ],
+      [
+        "Кузов",
+        "Внедорожник"
+      ]
+    ],
+    "description": "Тестовое описание: просторный семейный внедорожник, салон без следов износа. Данные вымышлены.",
+    "regionId": "krasnodarskiy-kray",
+    "place": "Краснодар",
+    "postedAt": "2026-10-31",
+    "imageId": "d-car-suv",
+    "gallery": [
+      "d-car-suv"
+    ],
+    "price": 3400000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "year": "2019",
+      "mileage": "78000"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-car-crossover",
+    "slug": "car-crossover",
+    "demo": true,
+    "kind": "vehicle",
+    "categoryPath": "transport/legkovye/s-probegom",
+    "title": "Кроссовер, 2021, 34 000 км",
+    "facts": [
+      "2021",
+      "34 000 км",
+      "Бензин"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "С пробегом"
+      ],
+      [
+        "Год выпуска",
+        "2021"
+      ],
+      [
+        "Пробег",
+        "34 000 км"
+      ],
+      [
+        "Топливо",
+        "Бензин"
+      ],
+      [
+        "Кузов",
+        "Кроссовер"
+      ]
+    ],
+    "description": "Тестовое описание: свежий кроссовер для города и поездок за город. Данные вымышлены.",
+    "regionId": "sankt-peterburg",
+    "place": "Санкт-Петербург",
+    "postedAt": "2026-10-30",
+    "imageId": "d-car-suv2",
+    "gallery": [
+      "d-car-suv2"
+    ],
+    "price": 2790000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "year": "2021",
+      "mileage": "34000"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-car-sport",
+    "slug": "car-sport",
+    "demo": true,
+    "kind": "vehicle",
+    "categoryPath": "transport/legkovye/novye",
+    "title": "Спорткар, новый, 2025",
+    "facts": [
+      "2025",
+      "Новый",
+      "Купе"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Новый"
+      ],
+      [
+        "Год выпуска",
+        "2025"
+      ],
+      [
+        "Кузов",
+        "Купе"
+      ],
+      [
+        "Мощность",
+        "500+ л. с."
+      ]
+    ],
+    "description": "Тестовое описание: витринный экземпляр для проверки крупной цены и двух линий параметров. Данные вымышлены.",
+    "regionId": "moskva",
+    "place": "Москва, ЦАО",
+    "postedAt": "2026-10-29",
+    "imageId": "d-car-red",
+    "gallery": [
+      "d-car-red"
+    ],
+    "price": 12500000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "new",
+      "year": "2025",
+      "mileage": "0"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-car-pickup",
+    "slug": "car-pickup",
+    "demo": true,
+    "kind": "vehicle",
+    "categoryPath": "transport/legkovye/s-probegom",
+    "title": "Пикап, 2018, 96 000 км",
+    "facts": [
+      "2018",
+      "96 000 км",
+      "Полный привод"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "С пробегом"
+      ],
+      [
+        "Год выпуска",
+        "2018"
+      ],
+      [
+        "Пробег",
+        "96 000 км"
+      ],
+      [
+        "Кузов",
+        "Пикап"
+      ],
+      [
+        "Привод",
+        "Полный"
+      ]
+    ],
+    "description": "Тестовое описание: рабочий пикап для поездок по бездорожью. Данные вымышлены.",
+    "regionId": "sverdlovskaya-oblast",
+    "place": "Тюмень",
+    "postedAt": "2026-10-28",
+    "imageId": "d-van",
+    "gallery": [
+      "d-van"
+    ],
+    "price": 2650000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "year": "2018",
+      "mileage": "96000"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-moto-sport",
+    "slug": "moto-sport",
+    "demo": true,
+    "kind": "vehicle",
+    "categoryPath": "transport/moto",
+    "title": "Спортивный мотоцикл, 2020, 8 400 км",
+    "facts": [
+      "2020",
+      "8 400 км",
+      "Спорт"
+    ],
+    "params": [
+      [
+        "Тип",
+        "Спорт"
+      ],
+      [
+        "Год выпуска",
+        "2020"
+      ],
+      [
+        "Пробег",
+        "8 400 км"
+      ],
+      [
+        "Объём",
+        "650 см³"
+      ]
+    ],
+    "description": "Тестовое описание: мотоцикл после сезона, без падений. Данные вымышлены.",
+    "regionId": "tatarstan",
+    "place": "Казань",
+    "postedAt": "2026-10-30",
+    "imageId": "d-moto2",
+    "gallery": [
+      "d-moto2"
+    ],
+    "price": 690000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "year": "2020",
+      "mileage": "8400"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-moto-cruiser",
+    "slug": "moto-cruiser",
+    "demo": true,
+    "kind": "vehicle",
+    "categoryPath": "transport/moto",
+    "title": "Круизер, 2016, 21 000 км",
+    "facts": [
+      "2016",
+      "21 000 км",
+      "Круизер"
+    ],
+    "params": [
+      [
+        "Тип",
+        "Круизер"
+      ],
+      [
+        "Год выпуска",
+        "2016"
+      ],
+      [
+        "Пробег",
+        "21 000 км"
+      ],
+      [
+        "Объём",
+        "883 см³"
+      ]
+    ],
+    "description": "Тестовое описание: дорожный мотоцикл для дальних поездок. Данные вымышлены.",
+    "regionId": "novosibirskaya-oblast",
+    "place": "Новосибирск",
+    "postedAt": "2026-10-27",
+    "imageId": "d-moto",
+    "gallery": [
+      "d-moto"
+    ],
+    "price": 520000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "year": "2016",
+      "mileage": "21000"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-truck-tractor",
+    "slug": "truck-tractor",
+    "demo": true,
+    "kind": "vehicle",
+    "categoryPath": "transport/gruzovye",
+    "title": "Седельный тягач, 2018",
+    "facts": [
+      "2018",
+      "Тягач",
+      "Дизель"
+    ],
+    "params": [
+      [
+        "Тип",
+        "Седельный тягач"
+      ],
+      [
+        "Год выпуска",
+        "2018"
+      ],
+      [
+        "Топливо",
+        "Дизель"
+      ],
+      [
+        "Колёсная формула",
+        "4×2"
+      ]
+    ],
+    "description": "Тестовое описание: тягач для магистральных перевозок. Данные вымышлены.",
+    "regionId": "sverdlovskaya-oblast",
+    "place": "Екатеринбург",
+    "postedAt": "2026-10-26",
+    "imageId": "d-truck",
+    "gallery": [
+      "d-truck"
+    ],
+    "price": 4900000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "year": "2018",
+      "mileage": "420000"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-field-tractor",
+    "slug": "field-tractor",
+    "demo": true,
+    "kind": "equipment",
+    "categoryPath": "transport/gruzovye/spectehnika",
+    "title": "Трактор для полевых работ, 2015",
+    "facts": [
+      "2015",
+      "Продажа",
+      "Сельхозтехника"
+    ],
+    "params": [
+      [
+        "Тип",
+        "Колёсный трактор"
+      ],
+      [
+        "Год выпуска",
+        "2015"
+      ],
+      [
+        "Сделка",
+        "Продажа"
+      ]
+    ],
+    "description": "Тестовое описание: трактор с навесным оборудованием для полевых работ. Данные вымышлены.",
+    "regionId": "tulskaya-oblast",
+    "place": "Тульская область",
+    "postedAt": "2026-10-25",
+    "imageId": "d-tractor",
+    "gallery": [
+      "d-tractor"
+    ],
+    "price": 3200000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "deal": "sale",
+      "year": "2015"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-crane-rent",
+    "slug": "crane-rent",
+    "demo": true,
+    "kind": "equipment",
+    "categoryPath": "biznes/oborudovanie/stroitelnoe",
+    "title": "Строительный кран в аренду, 2020",
+    "facts": [
+      "2020",
+      "Аренда",
+      "Кран"
+    ],
+    "params": [
+      [
+        "Тип",
+        "Кран"
+      ],
+      [
+        "Год выпуска",
+        "2020"
+      ],
+      [
+        "Сделка",
+        "Аренда"
+      ]
+    ],
+    "description": "Тестовое описание: техника для монтажных работ, аренда посменно. Данные вымышлены.",
+    "regionId": "moskva",
+    "place": "Москва",
+    "postedAt": "2026-10-31",
+    "imageId": "d-crane-crop",
+    "gallery": [
+      "d-crane-crop"
+    ],
+    "price": 38000,
+    "priceSuffix": "за смену",
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "deal": "rent",
+      "year": "2020"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-flat-2k",
+    "slug": "flat-2k",
+    "demo": true,
+    "kind": "realty",
+    "categoryPath": "nedvizhimost/kvartiry/vtorichka/dvuhkomnatnye",
+    "title": "2-к. квартира, 54 м², 5/9 эт.",
+    "facts": [
+      "54 м²",
+      "2 комнаты",
+      "5/9 эт."
+    ],
+    "params": [
+      [
+        "Площадь",
+        "54 м²"
+      ],
+      [
+        "Комнат",
+        "2"
+      ],
+      [
+        "Этаж",
+        "5 из 9"
+      ],
+      [
+        "Ремонт",
+        "Косметический"
+      ],
+      [
+        "Санузел",
+        "Раздельный"
+      ]
+    ],
+    "description": "Тестовое описание: светлая квартира в панельном доме, рядом метро. Данные вымышлены.",
+    "regionId": "moskva",
+    "place": "Москва, Бутово",
+    "postedAt": "2026-11-01",
+    "imageId": "d-flat-bright",
+    "gallery": [
+      "d-flat-bright",
+      "d-flat-living",
+      "d-flat-bath"
+    ],
+    "price": 9400000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "deal": "sale",
+      "rooms": "2",
+      "area": "54",
+      "floor": "5"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-flat-new-1k",
+    "slug": "flat-new-1k",
+    "demo": true,
+    "kind": "realty",
+    "categoryPath": "nedvizhimost/kvartiry/novostroyki",
+    "title": "1-к. квартира в новостройке, 38 м², 12/24 эт.",
+    "facts": [
+      "38 м²",
+      "1 комната",
+      "12/24 эт."
+    ],
+    "params": [
+      [
+        "Площадь",
+        "38 м²"
+      ],
+      [
+        "Комнат",
+        "1"
+      ],
+      [
+        "Этаж",
+        "12 из 24"
+      ],
+      [
+        "Отделка",
+        "Чистовая"
+      ],
+      [
+        "Срок сдачи",
+        "2027"
+      ]
+    ],
+    "description": "Тестовое описание: квартира с панорамными окнами в новом комплексе. Данные вымышлены.",
+    "regionId": "moskovskaya-oblast",
+    "place": "Химки",
+    "postedAt": "2026-10-31",
+    "imageId": "d-flat-living",
+    "gallery": [
+      "d-flat-living"
+    ],
+    "price": 7200000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "deal": "sale",
+      "rooms": "1",
+      "area": "38",
+      "floor": "12"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-studio-rent",
+    "slug": "studio-rent",
+    "demo": true,
+    "kind": "realty",
+    "categoryPath": "nedvizhimost/kvartiry/vtorichka",
+    "title": "Студия, 26 м², 8/17 эт.",
+    "facts": [
+      "26 м²",
+      "Студия",
+      "8/17 эт."
+    ],
+    "params": [
+      [
+        "Площадь",
+        "26 м²"
+      ],
+      [
+        "Комнат",
+        "Студия"
+      ],
+      [
+        "Этаж",
+        "8 из 17"
+      ],
+      [
+        "Срок аренды",
+        "Длительный"
+      ]
+    ],
+    "description": "Тестовое описание: уютная студия с мебелью и техникой. Данные вымышлены.",
+    "regionId": "sankt-peterburg",
+    "place": "Санкт-Петербург, Приморский р-н",
+    "postedAt": "2026-10-31",
+    "imageId": "d-flat-studio",
+    "gallery": [
+      "d-flat-studio"
+    ],
+    "price": 55000,
+    "priceSuffix": "в месяц",
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "deal": "rent_long",
+      "rooms": "studio",
+      "area": "26",
+      "floor": "8"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-apart-daily",
+    "slug": "apart-daily",
+    "demo": true,
+    "kind": "realty",
+    "categoryPath": "nedvizhimost/kvartiry/vtorichka",
+    "title": "Апартаменты на двоих, посуточно",
+    "facts": [
+      "2 гостя",
+      "35 м²",
+      "Посуточно"
+    ],
+    "params": [
+      [
+        "Площадь",
+        "35 м²"
+      ],
+      [
+        "Гостей",
+        "до 2"
+      ],
+      [
+        "Заезд",
+        "с 14:00"
+      ],
+      [
+        "Выезд",
+        "до 12:00"
+      ]
+    ],
+    "description": "Тестовое описание: номер с кроватью king-size и кофемашиной. Данные вымышлены.",
+    "regionId": "krasnodarskiy-kray",
+    "place": "Сочи",
+    "postedAt": "2026-10-29",
+    "imageId": "d-hotel",
+    "gallery": [
+      "d-hotel"
+    ],
+    "price": 6500,
+    "priceSuffix": "за сутки",
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "deal": "rent_daily",
+      "rooms": "1",
+      "area": "35",
+      "floor": "3"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-sea-house",
+    "slug": "sea-house",
+    "demo": true,
+    "kind": "realty",
+    "categoryPath": "nedvizhimost/doma",
+    "title": "Домик у моря, посуточно",
+    "facts": [
+      "4 гостя",
+      "60 м²",
+      "У моря"
+    ],
+    "params": [
+      [
+        "Площадь",
+        "60 м²"
+      ],
+      [
+        "Гостей",
+        "до 4"
+      ],
+      [
+        "До моря",
+        "150 м"
+      ],
+      [
+        "Парковка",
+        "Есть"
+      ]
+    ],
+    "description": "Тестовое описание: отдельный домик с верандой. Данные вымышлены.",
+    "regionId": "krasnodarskiy-kray",
+    "place": "Анапа",
+    "postedAt": "2026-10-28",
+    "imageId": "d-beach-house",
+    "gallery": [
+      "d-beach-house"
+    ],
+    "price": 12000,
+    "priceSuffix": "за сутки",
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "deal": "rent_daily",
+      "area": "60"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-house-suburb",
+    "slug": "house-suburb",
+    "demo": true,
+    "kind": "realty",
+    "categoryPath": "nedvizhimost/doma/kottedzhi",
+    "title": "Дом 180 м² на участке 8 сот.",
+    "facts": [
+      "180 м²",
+      "8 сот.",
+      "2 этажа"
+    ],
+    "params": [
+      [
+        "Площадь дома",
+        "180 м²"
+      ],
+      [
+        "Участок",
+        "8 соток"
+      ],
+      [
+        "Этажей",
+        "2"
+      ],
+      [
+        "Материал",
+        "Газобетон"
+      ],
+      [
+        "Отопление",
+        "Газ"
+      ]
+    ],
+    "description": "Тестовое описание: дом с гаражом и террасой, коммуникации подключены. Данные вымышлены.",
+    "regionId": "moskovskaya-oblast",
+    "place": "Подольск",
+    "postedAt": "2026-10-30",
+    "imageId": "d-house-suburb",
+    "gallery": [
+      "d-house-suburb",
+      "d-cottage"
+    ],
+    "price": 18900000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "deal": "sale",
+      "area": "180"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-villa-pool",
+    "slug": "villa-pool",
+    "demo": true,
+    "kind": "realty",
+    "categoryPath": "nedvizhimost/doma/kottedzhi",
+    "title": "Коттедж 240 м² с бассейном",
+    "facts": [
+      "240 м²",
+      "12 сот.",
+      "Бассейн"
+    ],
+    "params": [
+      [
+        "Площадь дома",
+        "240 м²"
+      ],
+      [
+        "Участок",
+        "12 соток"
+      ],
+      [
+        "Этажей",
+        "2"
+      ],
+      [
+        "Бассейн",
+        "Есть"
+      ]
+    ],
+    "description": "Тестовое описание: загородный дом с бассейном и ландшафтным участком. Данные вымышлены.",
+    "regionId": "moskovskaya-oblast",
+    "place": "Одинцово",
+    "postedAt": "2026-10-27",
+    "imageId": "d-house-modern",
+    "gallery": [
+      "d-house-modern"
+    ],
+    "price": 41000000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "deal": "sale",
+      "area": "240"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-modern-house",
+    "slug": "modern-house",
+    "demo": true,
+    "kind": "realty",
+    "categoryPath": "nedvizhimost/doma",
+    "title": "Современный дом 160 м², панорамное остекление",
+    "facts": [
+      "160 м²",
+      "15 сот.",
+      "Остекление"
+    ],
+    "params": [
+      [
+        "Площадь дома",
+        "160 м²"
+      ],
+      [
+        "Участок",
+        "15 соток"
+      ],
+      [
+        "Этажей",
+        "1"
+      ],
+      [
+        "Остекление",
+        "Панорамное"
+      ]
+    ],
+    "description": "Тестовое описание: одноэтажный дом с тёплыми полами. Данные вымышлены.",
+    "regionId": "kaluzhskaya-oblast",
+    "place": "Калужская область",
+    "postedAt": "2026-10-26",
+    "imageId": "d-house-brick",
+    "gallery": [
+      "d-house-brick"
+    ],
+    "price": 24500000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "deal": "sale",
+      "area": "160"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-dacha",
+    "slug": "dacha",
+    "demo": true,
+    "kind": "realty",
+    "categoryPath": "nedvizhimost/doma/dachi",
+    "title": "Дача 80 м², 10 сот.",
+    "facts": [
+      "80 м²",
+      "10 сот.",
+      "Лес рядом"
+    ],
+    "params": [
+      [
+        "Площадь дома",
+        "80 м²"
+      ],
+      [
+        "Участок",
+        "10 соток"
+      ],
+      [
+        "Электричество",
+        "Есть"
+      ],
+      [
+        "Вода",
+        "Скважина"
+      ]
+    ],
+    "description": "Тестовое описание: дача в посёлке у леса. Данные вымышлены.",
+    "regionId": "tulskaya-oblast",
+    "place": "Тульская область",
+    "postedAt": "2026-10-25",
+    "imageId": "d-cottage",
+    "gallery": [
+      "d-cottage"
+    ],
+    "price": 6800000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "deal": "sale",
+      "area": "80"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-townhouse",
+    "slug": "townhouse",
+    "demo": true,
+    "kind": "realty",
+    "categoryPath": "nedvizhimost/doma/taunhausy",
+    "title": "Таунхаус 120 м², 3 этажа",
+    "facts": [
+      "120 м²",
+      "3 этажа",
+      "Парковка"
+    ],
+    "params": [
+      [
+        "Площадь",
+        "120 м²"
+      ],
+      [
+        "Этажей",
+        "3"
+      ],
+      [
+        "Парковка",
+        "2 места"
+      ],
+      [
+        "Отделка",
+        "Предчистовая"
+      ]
+    ],
+    "description": "Тестовое описание: таунхаус с лестницей и светлой гостиной. Данные вымышлены.",
+    "regionId": "moskovskaya-oblast",
+    "place": "Мытищи",
+    "postedAt": "2026-10-24",
+    "imageId": "d-flat-bedroom",
+    "gallery": [
+      "d-flat-bedroom"
+    ],
+    "price": 13200000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "deal": "sale",
+      "area": "120"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-shop-rent",
+    "slug": "shop-rent",
+    "demo": true,
+    "kind": "realty",
+    "categoryPath": "nedvizhimost/kommercheskaya/magaziny",
+    "title": "Помещение под магазин, 64 м²",
+    "facts": [
+      "64 м²",
+      "1 этаж",
+      "Витрины"
+    ],
+    "params": [
+      [
+        "Площадь",
+        "64 м²"
+      ],
+      [
+        "Этаж",
+        "1"
+      ],
+      [
+        "Назначение",
+        "Магазин"
+      ],
+      [
+        "Вход",
+        "С улицы"
+      ]
+    ],
+    "description": "Тестовое описание: помещение с витринными окнами на пешеходной улице. Данные вымышлены.",
+    "regionId": "moskva",
+    "place": "Москва, Арбат",
+    "postedAt": "2026-10-29",
+    "imageId": "d-shop",
+    "gallery": [
+      "d-shop"
+    ],
+    "price": 180000,
+    "priceSuffix": "в месяц",
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "deal": "rent_long",
+      "area": "64",
+      "purpose": "shop"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-warehouse",
+    "slug": "warehouse",
+    "demo": true,
+    "kind": "realty",
+    "categoryPath": "nedvizhimost/kommercheskaya/sklady",
+    "title": "Склад 1 200 м², аренда",
+    "facts": [
+      "1 200 м²",
+      "Класс B",
+      "Рампа"
+    ],
+    "params": [
+      [
+        "Площадь",
+        "1 200 м²"
+      ],
+      [
+        "Класс",
+        "B"
+      ],
+      [
+        "Высота",
+        "9 м"
+      ],
+      [
+        "Рампа",
+        "Есть"
+      ]
+    ],
+    "description": "Тестовое описание: склад с рампами и охраняемой территорией. Данные вымышлены.",
+    "regionId": "moskovskaya-oblast",
+    "place": "Домодедово",
+    "postedAt": "2026-10-23",
+    "imageId": "d-forklift",
+    "gallery": [
+      "d-forklift"
+    ],
+    "price": 420000,
+    "priceSuffix": "в месяц",
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "deal": "rent_long",
+      "area": "1200",
+      "purpose": "warehouse"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-phone",
+    "slug": "phone",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "elektronika/telefony",
+    "title": "Смартфон, 128 ГБ, тёмный корпус",
+    "facts": [
+      "128 ГБ",
+      "Б/у",
+      "Самовывоз"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Б/у"
+      ],
+      [
+        "Память",
+        "128 ГБ"
+      ],
+      [
+        "Цвет",
+        "Тёмный"
+      ],
+      [
+        "Гарантия",
+        "Нет"
+      ]
+    ],
+    "description": "Тестовое описание: аппарат без сколов, комплект и коробка. Данные вымышлены.",
+    "regionId": "moskva",
+    "place": "Москва",
+    "postedAt": "2026-11-01",
+    "imageId": "d-phone-black",
+    "gallery": [
+      "d-phone-black"
+    ],
+    "price": 24900,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-laptop-14",
+    "slug": "laptop-14",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "elektronika/noutbuki",
+    "title": "Ноутбук 14″, 16 ГБ, SSD 512 ГБ",
+    "facts": [
+      "14″",
+      "16 ГБ",
+      "SSD 512 ГБ"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Б/у"
+      ],
+      [
+        "Диагональ",
+        "14″"
+      ],
+      [
+        "Память",
+        "16 ГБ"
+      ],
+      [
+        "Накопитель",
+        "SSD 512 ГБ"
+      ]
+    ],
+    "description": "Тестовое описание: ноутбук для работы и учёбы. Данные вымышлены.",
+    "regionId": "sankt-peterburg",
+    "place": "Санкт-Петербург",
+    "postedAt": "2026-10-31",
+    "imageId": "d-laptop-open",
+    "gallery": [
+      "d-laptop-open"
+    ],
+    "price": 54000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-ultrabook",
+    "slug": "ultrabook",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "elektronika/noutbuki",
+    "title": "Ультрабук с подсветкой клавиатуры",
+    "facts": [
+      "13″",
+      "Подсветка",
+      "Новый"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Новый"
+      ],
+      [
+        "Диагональ",
+        "13″"
+      ],
+      [
+        "Подсветка",
+        "Есть"
+      ],
+      [
+        "Вес",
+        "1,3 кг"
+      ]
+    ],
+    "description": "Тестовое описание: ультрабук в заводской упаковке. Данные вымышлены.",
+    "regionId": "tatarstan",
+    "place": "Казань",
+    "postedAt": "2026-10-30",
+    "imageId": "d-laptop-mac",
+    "gallery": [
+      "d-laptop-mac"
+    ],
+    "price": 78000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "new",
+      "handoff": "delivery"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-smartwatch",
+    "slug": "smartwatch",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "elektronika/telefony/gadzhety",
+    "title": "Умные часы, чёрный корпус",
+    "facts": [
+      "GPS",
+      "Пульсометр",
+      "Б/у"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Б/у"
+      ],
+      [
+        "Экран",
+        "AMOLED"
+      ],
+      [
+        "Датчики",
+        "Пульс, GPS"
+      ],
+      [
+        "Ремешок",
+        "Силикон"
+      ]
+    ],
+    "description": "Тестовое описание: часы с зарядкой и дополнительным ремешком. Данные вымышлены.",
+    "regionId": "moskva",
+    "place": "Москва",
+    "postedAt": "2026-10-30",
+    "imageId": "d-watch",
+    "gallery": [
+      "d-watch"
+    ],
+    "price": 9800,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-headphones",
+    "slug": "headphones",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "elektronika/telefony/gadzhety",
+    "title": "Беспроводные наушники с шумоподавлением",
+    "facts": [
+      "Bluetooth",
+      "Шумоподавление",
+      "Новые"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Новое"
+      ],
+      [
+        "Подключение",
+        "Bluetooth"
+      ],
+      [
+        "Шумоподавление",
+        "Есть"
+      ],
+      [
+        "Работа",
+        "30 часов"
+      ]
+    ],
+    "description": "Тестовое описание: накладные наушники в коробке. Данные вымышлены.",
+    "regionId": "sverdlovskaya-oblast",
+    "place": "Екатеринбург",
+    "postedAt": "2026-10-29",
+    "imageId": "d-headphones",
+    "gallery": [
+      "d-headphones"
+    ],
+    "price": 4500,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "new",
+      "handoff": "delivery"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-instant-camera",
+    "slug": "instant-camera",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "elektronika/foto",
+    "title": "Фотоаппарат моментальной печати",
+    "facts": [
+      "Мгновенное фото",
+      "Б/у",
+      "Плёнка"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Б/у"
+      ],
+      [
+        "Тип",
+        "Моментальная печать"
+      ],
+      [
+        "Комплект",
+        "Ремень, плёнка"
+      ]
+    ],
+    "description": "Тестовое описание: камера в рабочем состоянии с кассетой плёнки. Данные вымышлены.",
+    "regionId": "moskva",
+    "place": "Москва",
+    "postedAt": "2026-10-28",
+    "imageId": "d-camera",
+    "gallery": [
+      "d-camera"
+    ],
+    "price": 6900,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-tv-55",
+    "slug": "tv-55",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "elektronika/audio-video",
+    "title": "Телевизор 55″ 4K Smart TV",
+    "facts": [
+      "55″",
+      "4K",
+      "Smart TV"
+    ],
+    "params": [
+      [
+        "Диагональ",
+        "55″"
+      ],
+      [
+        "Разрешение",
+        "4K"
+      ],
+      [
+        "Smart TV",
+        "Есть"
+      ],
+      [
+        "Подставка",
+        "В комплекте"
+      ]
+    ],
+    "description": "Тестовое описание: телевизор с пультом и настенным кронштейном. Данные вымышлены.",
+    "regionId": "novosibirskaya-oblast",
+    "place": "Новосибирск",
+    "postedAt": "2026-10-27",
+    "imageId": "d-tv",
+    "gallery": [
+      "d-tv"
+    ],
+    "price": 32000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-console",
+    "slug": "console",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "elektronika/pristavki",
+    "title": "Игровая приставка с геймпадом",
+    "facts": [
+      "Геймпад",
+      "Б/у",
+      "Гарантия"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Б/у"
+      ],
+      [
+        "Комплект",
+        "Приставка, геймпад"
+      ],
+      [
+        "Накопитель",
+        "825 ГБ"
+      ]
+    ],
+    "description": "Тестовое описание: консоль после одного владельца. Данные вымышлены.",
+    "regionId": "moskva",
+    "place": "Москва",
+    "postedAt": "2026-10-26",
+    "imageId": "d-console",
+    "gallery": [
+      "d-console"
+    ],
+    "price": 39000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-keyboard",
+    "slug": "keyboard",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "elektronika/tovary-dlya-kompyutera/komplektuyushchie",
+    "title": "Беспроводная клавиатура, белая",
+    "facts": [
+      "Bluetooth",
+      "Белая",
+      "Новая"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Новая"
+      ],
+      [
+        "Подключение",
+        "Bluetooth"
+      ],
+      [
+        "Раскладка",
+        "RU/EN"
+      ]
+    ],
+    "description": "Тестовое описание: клавиатура с тихими клавишами. Данные вымышлены.",
+    "regionId": "tulskaya-oblast",
+    "place": "Тула",
+    "postedAt": "2026-10-25",
+    "imageId": "d-keyboard",
+    "gallery": [
+      "d-keyboard"
+    ],
+    "price": 3200,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "new",
+      "handoff": "delivery"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-fridge",
+    "slug": "fridge",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "dom-i-dacha/bytovaya",
+    "title": "Холодильник, мятный цвет",
+    "facts": [
+      "Двухкамерный",
+      "Б/у",
+      "Самовывоз"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Б/у"
+      ],
+      [
+        "Тип",
+        "Двухкамерный"
+      ],
+      [
+        "Высота",
+        "152 см"
+      ],
+      [
+        "Цвет",
+        "Мятный"
+      ]
+    ],
+    "description": "Тестовое описание: холодильник в хорошем состоянии. Данные вымышлены.",
+    "regionId": "moskva",
+    "place": "Москва",
+    "postedAt": "2026-10-29",
+    "imageId": "d-fridge",
+    "gallery": [
+      "d-fridge"
+    ],
+    "price": 21000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-washer",
+    "slug": "washer",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "dom-i-dacha/bytovaya",
+    "title": "Стиральная машина, 6 кг",
+    "facts": [
+      "6 кг",
+      "Фронтальная",
+      "Б/у"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Б/у"
+      ],
+      [
+        "Загрузка",
+        "6 кг"
+      ],
+      [
+        "Тип",
+        "Фронтальная"
+      ],
+      [
+        "Отжим",
+        "1000 об/мин"
+      ]
+    ],
+    "description": "Тестовое описание: рабочая машина, доставка по договорённости. Данные вымышлены.",
+    "regionId": "moskovskaya-oblast",
+    "place": "Подольск",
+    "postedAt": "2026-10-28",
+    "imageId": "d-washer",
+    "gallery": [
+      "d-washer"
+    ],
+    "price": 18500,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "delivery"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-sofa-leather",
+    "slug": "sofa-leather",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "dom-i-dacha/mebel/myagkaya",
+    "title": "Кожаный диван, 3-местный",
+    "facts": [
+      "3-местный",
+      "Кожа",
+      "Б/у"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Б/у"
+      ],
+      [
+        "Материал",
+        "Кожа"
+      ],
+      [
+        "Мест",
+        "3"
+      ],
+      [
+        "Ширина",
+        "210 см"
+      ]
+    ],
+    "description": "Тестовое описание: диван в светло-коричневой коже. Данные вымышлены.",
+    "regionId": "moskva",
+    "place": "Москва",
+    "postedAt": "2026-10-31",
+    "imageId": "d-sofa-blue",
+    "gallery": [
+      "d-sofa-blue"
+    ],
+    "price": 38000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-armchair-lamp",
+    "slug": "armchair-lamp",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "dom-i-dacha/mebel",
+    "title": "Кресло с торшером",
+    "facts": [
+      "Жёлтое кресло",
+      "Торшер",
+      "Б/у"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Б/у"
+      ],
+      [
+        "Комплект",
+        "Кресло, торшер"
+      ],
+      [
+        "Цвет",
+        "Жёлтый"
+      ]
+    ],
+    "description": "Тестовое описание: яркое кресло и напольный светильник. Данные вымышлены.",
+    "regionId": "sankt-peterburg",
+    "place": "Санкт-Петербург",
+    "postedAt": "2026-10-30",
+    "imageId": "d-sofa-grey",
+    "gallery": [
+      "d-sofa-grey"
+    ],
+    "price": 12500,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-bed",
+    "slug": "bed",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "dom-i-dacha/mebel",
+    "title": "Кровать 160×200 с матрасом",
+    "facts": [
+      "160×200",
+      "Матрас",
+      "Новая"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Новая"
+      ],
+      [
+        "Размер",
+        "160×200 см"
+      ],
+      [
+        "Матрас",
+        "В комплекте"
+      ],
+      [
+        "Изголовье",
+        "Мягкое"
+      ]
+    ],
+    "description": "Тестовое описание: двуспальная кровать с мягким изголовьем. Данные вымышлены.",
+    "regionId": "moskovskaya-oblast",
+    "place": "Одинцово",
+    "postedAt": "2026-10-28",
+    "imageId": "d-bed",
+    "gallery": [
+      "d-bed"
+    ],
+    "price": 29000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "new",
+      "handoff": "delivery"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-cafe-chairs",
+    "slug": "cafe-chairs",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "dom-i-dacha/mebel",
+    "title": "Кресла для кафе, 4 шт.",
+    "facts": [
+      "4 шт.",
+      "Дерево",
+      "Б/у"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Б/у"
+      ],
+      [
+        "Количество",
+        "4"
+      ],
+      [
+        "Материал",
+        "Дерево, ткань"
+      ]
+    ],
+    "description": "Тестовое описание: комплект кресел из закрывшегося кафе. Данные вымышлены.",
+    "regionId": "moskva",
+    "place": "Москва",
+    "postedAt": "2026-10-26",
+    "imageId": "d-chair",
+    "gallery": [
+      "d-chair"
+    ],
+    "price": 14000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-kitchen-set",
+    "slug": "kitchen-set",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "dom-i-dacha/mebel/kuhni",
+    "title": "Кухонный гарнитур, 2,4 м",
+    "facts": [
+      "2,4 м",
+      "Столешница",
+      "Б/у"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Б/у"
+      ],
+      [
+        "Длина",
+        "2,4 м"
+      ],
+      [
+        "Столешница",
+        "МДФ"
+      ],
+      [
+        "Техника",
+        "Без техники"
+      ]
+    ],
+    "description": "Тестовое описание: гарнитур в хорошем состоянии. Данные вымышлены.",
+    "regionId": "tulskaya-oblast",
+    "place": "Тула",
+    "postedAt": "2026-10-27",
+    "imageId": "tile-kitchen",
+    "gallery": [
+      "tile-kitchen"
+    ],
+    "price": 56000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-desk-lamp",
+    "slug": "desk-lamp",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "dom-i-dacha/mebel/osveshchenie",
+    "title": "Настольная лампа, графит",
+    "facts": [
+      "Графит",
+      "LED",
+      "Новая"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Новая"
+      ],
+      [
+        "Тип",
+        "Настольная"
+      ],
+      [
+        "Лампа",
+        "LED"
+      ]
+    ],
+    "description": "Тестовое описание: лампа с регулируемым плафоном. Данные вымышлены.",
+    "regionId": "tatarstan",
+    "place": "Казань",
+    "postedAt": "2026-10-24",
+    "imageId": "d-lamp",
+    "gallery": [
+      "d-lamp"
+    ],
+    "price": 1900,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "new",
+      "handoff": "delivery"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-garden-soil",
+    "slug": "garden-soil",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "dom-i-dacha/rasteniya",
+    "title": "Грунт и лопатка для рассады",
+    "facts": [
+      "10 л",
+      "Новый",
+      "Для рассады"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Новый"
+      ],
+      [
+        "Объём",
+        "10 л"
+      ],
+      [
+        "Назначение",
+        "Рассада"
+      ]
+    ],
+    "description": "Тестовое описание: готовая земляная смесь для посева. Данные вымышлены.",
+    "regionId": "kaluzhskaya-oblast",
+    "place": "Калуга",
+    "postedAt": "2026-10-23",
+    "imageId": "d-garden",
+    "gallery": [
+      "d-garden"
+    ],
+    "price": 450,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "new",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-svc-repair",
+    "slug": "svc-repair",
+    "demo": true,
+    "kind": "service",
+    "categoryPath": "uslugi/bytovye",
+    "title": "Мастер на час: сборка мебели, мелкий ремонт",
+    "facts": [
+      "Выезд",
+      "От 1 часа",
+      "Инструмент свой"
+    ],
+    "params": [
+      [
+        "Формат",
+        "На объекте"
+      ],
+      [
+        "Тариф",
+        "Почасовой"
+      ],
+      [
+        "Инструмент",
+        "Свой"
+      ]
+    ],
+    "description": "Тестовое описание: услуги мастера по дому. Исполнитель вымышлен.",
+    "regionId": "moskva",
+    "place": "Москва",
+    "postedAt": "2026-11-01",
+    "imageId": "d-repair",
+    "gallery": [
+      "d-repair"
+    ],
+    "price": 1500,
+    "priceSuffix": "в час",
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "format": "onsite"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-svc-clean",
+    "slug": "svc-clean",
+    "demo": true,
+    "kind": "service",
+    "categoryPath": "uslugi/uborka",
+    "title": "Генеральная уборка квартир и офисов",
+    "facts": [
+      "Выезд",
+      "Своё оборудование",
+      "Любой метраж"
+    ],
+    "params": [
+      [
+        "Формат",
+        "На объекте"
+      ],
+      [
+        "Оборудование",
+        "Своё"
+      ],
+      [
+        "Площадь",
+        "Любая"
+      ]
+    ],
+    "description": "Тестовое описание: уборка с профессиональной химией. Исполнитель вымышлен.",
+    "regionId": "sankt-peterburg",
+    "place": "Санкт-Петербург",
+    "postedAt": "2026-10-31",
+    "imageId": "d-clean",
+    "gallery": [
+      "d-clean"
+    ],
+    "price": 3500,
+    "priceSuffix": "от",
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "format": "onsite"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-svc-electric",
+    "slug": "svc-electric",
+    "demo": true,
+    "kind": "service",
+    "categoryPath": "uslugi/stroitelstvo-i-remont/elektrika",
+    "title": "Электрик: замена проводки, щитки",
+    "facts": [
+      "Выезд",
+      "Гарантия",
+      "Допуск"
+    ],
+    "params": [
+      [
+        "Формат",
+        "На объекте"
+      ],
+      [
+        "Гарантия",
+        "12 месяцев"
+      ],
+      [
+        "Работы",
+        "Проводка, щитки"
+      ]
+    ],
+    "description": "Тестовое описание: электромонтажные работы в квартирах и домах. Исполнитель вымышлен.",
+    "regionId": "moskovskaya-oblast",
+    "place": "Химки",
+    "postedAt": "2026-10-30",
+    "imageId": "d-electric",
+    "gallery": [
+      "d-electric"
+    ],
+    "price": 2000,
+    "priceSuffix": "от",
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "format": "onsite"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-svc-heat",
+    "slug": "svc-heat",
+    "demo": true,
+    "kind": "service",
+    "categoryPath": "uslugi/stroitelstvo-i-remont/otoplenie",
+    "title": "Установка радиаторов отопления",
+    "facts": [
+      "Выезд",
+      "Монтаж",
+      "Гарантия"
+    ],
+    "params": [
+      [
+        "Формат",
+        "На объекте"
+      ],
+      [
+        "Работы",
+        "Монтаж радиаторов"
+      ],
+      [
+        "Гарантия",
+        "12 месяцев"
+      ]
+    ],
+    "description": "Тестовое описание: монтаж и замена радиаторов в квартире. Исполнитель вымышлен.",
+    "regionId": "moskovskaya-oblast",
+    "place": "Подольск",
+    "postedAt": "2026-10-29",
+    "imageId": "heat-radiator",
+    "gallery": [
+      "heat-radiator"
+    ],
+    "price": 4000,
+    "priceSuffix": "от",
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "format": "onsite"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-svc-bath",
+    "slug": "svc-bath",
+    "demo": true,
+    "kind": "service",
+    "categoryPath": "uslugi/stroitelstvo-i-remont/santehnika",
+    "title": "Установка сантехники в ванной комнате",
+    "facts": [
+      "Выезд",
+      "Под ключ",
+      "Гарантия"
+    ],
+    "params": [
+      [
+        "Формат",
+        "На объекте"
+      ],
+      [
+        "Работы",
+        "Монтаж сантехники"
+      ],
+      [
+        "Гарантия",
+        "12 месяцев"
+      ]
+    ],
+    "description": "Тестовое описание: подключение раковин, смесителей, унитазов. Исполнитель вымышлен.",
+    "regionId": "moskva",
+    "place": "Москва",
+    "postedAt": "2026-10-28",
+    "imageId": "bathroom",
+    "gallery": [
+      "bathroom"
+    ],
+    "price": 3000,
+    "priceSuffix": "от",
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "format": "onsite"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-job-sales",
+    "slug": "job-sales",
+    "demo": true,
+    "kind": "job",
+    "categoryPath": "rabota/vakansii/torgovlya",
+    "title": "Менеджер по продажам",
+    "facts": [
+      "От 90 000 ₽",
+      "Полный день",
+      "Опыт от 1 года"
+    ],
+    "params": [
+      [
+        "Зарплата",
+        "от 90 000 ₽"
+      ],
+      [
+        "График",
+        "5/2"
+      ],
+      [
+        "Опыт",
+        "от 1 года"
+      ],
+      [
+        "Занятость",
+        "Полная"
+      ]
+    ],
+    "description": "Тестовая вакансия: работа с клиентами, ведение сделок. Компания вымышлена.",
+    "regionId": "moskva",
+    "place": "Москва",
+    "postedAt": "2026-11-01",
+    "imageId": "d-job-team",
+    "gallery": [
+      "d-job-team"
+    ],
+    "price": 90000,
+    "priceSuffix": "в месяц",
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "schedule": "full",
+      "experience": "1",
+      "employment": "full",
+      "workFormat": "office",
+      "salary": "90000"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-job-office",
+    "slug": "job-office",
+    "demo": true,
+    "kind": "job",
+    "categoryPath": "rabota/vakansii/servis",
+    "title": "Администратор офиса",
+    "facts": [
+      "От 65 000 ₽",
+      "Сменный",
+      "Без опыта"
+    ],
+    "params": [
+      [
+        "Зарплата",
+        "от 65 000 ₽"
+      ],
+      [
+        "График",
+        "2/2"
+      ],
+      [
+        "Опыт",
+        "Не нужен"
+      ],
+      [
+        "Занятость",
+        "Полная"
+      ]
+    ],
+    "description": "Тестовая вакансия: встреча гостей, документооборот. Компания вымышлена.",
+    "regionId": "sankt-peterburg",
+    "place": "Санкт-Петербург",
+    "postedAt": "2026-10-31",
+    "imageId": "d-job-barista",
+    "gallery": [
+      "d-job-barista"
+    ],
+    "price": 65000,
+    "priceSuffix": "в месяц",
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "schedule": "shift",
+      "experience": "none",
+      "employment": "full",
+      "workFormat": "office",
+      "salary": "65000"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-job-builder",
+    "slug": "job-builder",
+    "demo": true,
+    "kind": "job",
+    "categoryPath": "rabota/vakansii/stroitelstvo",
+    "title": "Монтажник-строитель, вахта",
+    "facts": [
+      "От 120 000 ₽",
+      "Вахта",
+      "Опыт от 3 лет"
+    ],
+    "params": [
+      [
+        "Зарплата",
+        "от 120 000 ₽"
+      ],
+      [
+        "График",
+        "Вахта 30/30"
+      ],
+      [
+        "Опыт",
+        "от 3 лет"
+      ],
+      [
+        "Жильё",
+        "Предоставляется"
+      ]
+    ],
+    "description": "Тестовая вакансия: монтаж конструкций на объекте. Компания вымышлена.",
+    "regionId": "sverdlovskaya-oblast",
+    "place": "Тюмень",
+    "postedAt": "2026-10-30",
+    "imageId": "d-build2",
+    "gallery": [
+      "d-build2"
+    ],
+    "price": 120000,
+    "priceSuffix": "в месяц",
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "schedule": "shift",
+      "experience": "3",
+      "employment": "full",
+      "workFormat": "office",
+      "salary": "120000"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-job-foreman",
+    "slug": "job-foreman",
+    "demo": true,
+    "kind": "job",
+    "categoryPath": "rabota/vakansii/stroitelstvo",
+    "title": "Прораб на строительный объект",
+    "facts": [
+      "От 150 000 ₽",
+      "Полный день",
+      "Опыт от 3 лет"
+    ],
+    "params": [
+      [
+        "Зарплата",
+        "от 150 000 ₽"
+      ],
+      [
+        "График",
+        "6/1"
+      ],
+      [
+        "Опыт",
+        "от 3 лет"
+      ]
+    ],
+    "description": "Тестовая вакансия: руководство бригадами и контроль сроков. Компания вымышлена.",
+    "regionId": "krasnodarskiy-kray",
+    "place": "Краснодар",
+    "postedAt": "2026-10-29",
+    "imageId": "d-build",
+    "gallery": [
+      "d-build"
+    ],
+    "price": 150000,
+    "priceSuffix": "в месяц",
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "schedule": "full",
+      "experience": "3",
+      "employment": "full",
+      "workFormat": "office",
+      "salary": "150000"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-job-trainer",
+    "slug": "job-trainer",
+    "demo": true,
+    "kind": "job",
+    "categoryPath": "rabota/vakansii/obrazovanie",
+    "title": "Тренер-преподаватель",
+    "facts": [
+      "От 70 000 ₽",
+      "Гибкий",
+      "Опыт от 1 года"
+    ],
+    "params": [
+      [
+        "Зарплата",
+        "от 70 000 ₽"
+      ],
+      [
+        "График",
+        "Гибкий"
+      ],
+      [
+        "Опыт",
+        "от 1 года"
+      ]
+    ],
+    "description": "Тестовая вакансия: проведение обучающих встреч. Компания вымышлена.",
+    "regionId": "tatarstan",
+    "place": "Казань",
+    "postedAt": "2026-10-28",
+    "imageId": "d-job-meeting",
+    "gallery": [
+      "d-job-meeting"
+    ],
+    "price": 70000,
+    "priceSuffix": "в месяц",
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "schedule": "flex",
+      "experience": "1",
+      "employment": "part",
+      "workFormat": "hybrid",
+      "salary": "70000"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-job-frontend",
+    "slug": "job-frontend",
+    "demo": true,
+    "kind": "job",
+    "categoryPath": "rabota/vakansii/it",
+    "title": "Frontend-разработчик, удалённо",
+    "facts": [
+      "От 180 000 ₽",
+      "Удалённо",
+      "Опыт от 3 лет"
+    ],
+    "params": [
+      [
+        "Зарплата",
+        "от 180 000 ₽"
+      ],
+      [
+        "Формат",
+        "Удалённо"
+      ],
+      [
+        "Опыт",
+        "от 3 лет"
+      ],
+      [
+        "Стек",
+        "React, TypeScript"
+      ]
+    ],
+    "description": "Тестовая вакансия: разработка интерфейсов. Компания вымышлена.",
+    "regionId": "moskva",
+    "place": "Удалённо",
+    "postedAt": "2026-10-27",
+    "imageId": "d-laptop-work",
+    "gallery": [
+      "d-laptop-work"
+    ],
+    "price": 180000,
+    "priceSuffix": "в месяц",
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "schedule": "flex",
+      "experience": "3",
+      "employment": "full",
+      "workFormat": "remote",
+      "salary": "180000"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-sneakers",
+    "slug": "sneakers",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "lichnye-veshchi/odezhda/obuv",
+    "title": "Кроссовки, размер 42",
+    "facts": [
+      "42 размер",
+      "Новые",
+      "Горчичный"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Новые"
+      ],
+      [
+        "Размер",
+        "42"
+      ],
+      [
+        "Цвет",
+        "Горчичный"
+      ]
+    ],
+    "description": "Тестовое описание: кроссовки в коробке. Данные вымышлены.",
+    "regionId": "moskva",
+    "place": "Москва",
+    "postedAt": "2026-10-31",
+    "imageId": "d-shoes",
+    "gallery": [
+      "d-shoes"
+    ],
+    "price": 5900,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "new",
+      "handoff": "delivery"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-sneakers-red",
+    "slug": "sneakers-red",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "lichnye-veshchi/odezhda/obuv",
+    "title": "Беговые кроссовки, красные, 43",
+    "facts": [
+      "43 размер",
+      "Новые",
+      "Беговые"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Новые"
+      ],
+      [
+        "Размер",
+        "43"
+      ],
+      [
+        "Назначение",
+        "Бег"
+      ]
+    ],
+    "description": "Тестовое описание: лёгкие беговые кроссовки. Данные вымышлены.",
+    "regionId": "sankt-peterburg",
+    "place": "Санкт-Петербург",
+    "postedAt": "2026-10-30",
+    "imageId": "d-shoes-red",
+    "gallery": [
+      "d-shoes-red"
+    ],
+    "price": 7400,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "new",
+      "handoff": "delivery"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-bomber",
+    "slug": "bomber",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "lichnye-veshchi/odezhda/muzhskaya",
+    "title": "Куртка-бомбер мужская, M",
+    "facts": [
+      "Размер M",
+      "Б/у",
+      "Демисезон"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Б/у"
+      ],
+      [
+        "Размер",
+        "M"
+      ],
+      [
+        "Сезон",
+        "Демисезон"
+      ]
+    ],
+    "description": "Тестовое описание: куртка без дефектов. Данные вымышлены.",
+    "regionId": "tatarstan",
+    "place": "Казань",
+    "postedAt": "2026-10-29",
+    "imageId": "d-jacket",
+    "gallery": [
+      "d-jacket"
+    ],
+    "price": 4200,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-knit-cape",
+    "slug": "knit-cape",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "lichnye-veshchi/odezhda/zhenskaya",
+    "title": "Вязаная накидка, ручная работа",
+    "facts": [
+      "Единый размер",
+      "Новая",
+      "Шерсть"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Новая"
+      ],
+      [
+        "Материал",
+        "Шерсть"
+      ],
+      [
+        "Размер",
+        "Единый"
+      ]
+    ],
+    "description": "Тестовое описание: тёплая накидка молочного цвета. Данные вымышлены.",
+    "regionId": "tulskaya-oblast",
+    "place": "Тула",
+    "postedAt": "2026-10-27",
+    "imageId": "d-clothes",
+    "gallery": [
+      "d-clothes"
+    ],
+    "price": 2100,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "new",
+      "handoff": "delivery"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-backpack",
+    "slug": "backpack",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "lichnye-veshchi/odezhda/sumki",
+    "title": "Городской рюкзак, тёмно-синий",
+    "facts": [
+      "20 л",
+      "Новый",
+      "Водоотталкивающий"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Новый"
+      ],
+      [
+        "Объём",
+        "20 л"
+      ],
+      [
+        "Ткань",
+        "Водоотталкивающая"
+      ]
+    ],
+    "description": "Тестовое описание: рюкзак с отделением для ноутбука. Данные вымышлены.",
+    "regionId": "moskva",
+    "place": "Москва",
+    "postedAt": "2026-10-26",
+    "imageId": "d-backpack",
+    "gallery": [
+      "d-backpack"
+    ],
+    "price": 3600,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "new",
+      "handoff": "delivery"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-kids-play",
+    "slug": "kids-play",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "lichnye-veshchi/detskie-tovary/igrushki",
+    "title": "Игрушки и развивающий коврик",
+    "facts": [
+      "Комплект",
+      "Б/у",
+      "От 0 лет"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Б/у"
+      ],
+      [
+        "Возраст",
+        "от 0 лет"
+      ],
+      [
+        "Комплект",
+        "Коврик, игрушки"
+      ]
+    ],
+    "description": "Тестовое описание: набор игрушек для малыша. Данные вымышлены.",
+    "regionId": "moskovskaya-oblast",
+    "place": "Мытищи",
+    "postedAt": "2026-10-30",
+    "imageId": "d-kids-room",
+    "gallery": [
+      "d-kids-room"
+    ],
+    "price": 2800,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-toy-railway",
+    "slug": "toy-railway",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "lichnye-veshchi/detskie-tovary/igrushki",
+    "title": "Деревянная железная дорога",
+    "facts": [
+      "Дерево",
+      "Новая",
+      "От 3 лет"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Новая"
+      ],
+      [
+        "Материал",
+        "Дерево"
+      ],
+      [
+        "Возраст",
+        "от 3 лет"
+      ]
+    ],
+    "description": "Тестовое описание: набор с поездом и мостом. Данные вымышлены.",
+    "regionId": "sankt-peterburg",
+    "place": "Санкт-Петербург",
+    "postedAt": "2026-10-28",
+    "imageId": "d-kids-toys",
+    "gallery": [
+      "d-kids-toys"
+    ],
+    "price": 3400,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "new",
+      "handoff": "delivery"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-school-stationery",
+    "slug": "school-stationery",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "lichnye-veshchi/detskie-tovary/shkola",
+    "title": "Канцелярия для школы, набор",
+    "facts": [
+      "Набор",
+      "Новый",
+      "Для школы"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Новый"
+      ],
+      [
+        "Комплект",
+        "Ручки, маркеры"
+      ]
+    ],
+    "description": "Тестовое описание: набор канцелярии в кейсе. Данные вымышлены.",
+    "regionId": "kaluzhskaya-oblast",
+    "place": "Калуга",
+    "postedAt": "2026-10-25",
+    "imageId": "d-pens",
+    "gallery": [
+      "d-pens"
+    ],
+    "price": 900,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "new",
+      "handoff": "delivery"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-road-bike",
+    "slug": "road-bike",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "hobbi/velosipedy",
+    "title": "Шоссейный велосипед, рама 54",
+    "facts": [
+      "Рама 54",
+      "Б/у",
+      "Односкоростной"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Б/у"
+      ],
+      [
+        "Рама",
+        "54 см"
+      ],
+      [
+        "Скорости",
+        "1"
+      ]
+    ],
+    "description": "Тестовое описание: лёгкий городской велосипед. Данные вымышлены.",
+    "regionId": "moskva",
+    "place": "Москва",
+    "postedAt": "2026-10-29",
+    "imageId": "tile-bike",
+    "gallery": [
+      "tile-bike"
+    ],
+    "price": 24000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-guitar",
+    "slug": "guitar",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "hobbi/muzyka",
+    "title": "Акустическая гитара",
+    "facts": [
+      "Акустика",
+      "Б/у",
+      "Чехол"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Б/у"
+      ],
+      [
+        "Тип",
+        "Акустическая"
+      ],
+      [
+        "Комплект",
+        "Чехол, ремень"
+      ]
+    ],
+    "description": "Тестовое описание: гитара с мягким чехлом. Данные вымышлены.",
+    "regionId": "sverdlovskaya-oblast",
+    "place": "Екатеринбург",
+    "postedAt": "2026-10-28",
+    "imageId": "d-guitar",
+    "gallery": [
+      "d-guitar"
+    ],
+    "price": 12000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-tent",
+    "slug": "tent",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "hobbi/sport/turizm",
+    "title": "Палатка 3-местная",
+    "facts": [
+      "3 места",
+      "Б/у",
+      "2 сезона"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Б/у"
+      ],
+      [
+        "Мест",
+        "3"
+      ],
+      [
+        "Сезон",
+        "2 сезона"
+      ]
+    ],
+    "description": "Тестовое описание: палатка с тентом и колышками. Данные вымышлены.",
+    "regionId": "kaluzhskaya-oblast",
+    "place": "Калуга",
+    "postedAt": "2026-10-27",
+    "imageId": "d-tent",
+    "gallery": [
+      "d-tent"
+    ],
+    "price": 7500,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-books",
+    "slug": "books",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "hobbi/knigi",
+    "title": "Книги по бизнесу, 6 шт.",
+    "facts": [
+      "6 книг",
+      "Б/у",
+      "Русский язык"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Б/у"
+      ],
+      [
+        "Количество",
+        "6"
+      ],
+      [
+        "Тематика",
+        "Бизнес"
+      ]
+    ],
+    "description": "Тестовое описание: стопка книг в хорошем состоянии. Данные вымышлены.",
+    "regionId": "moskva",
+    "place": "Москва",
+    "postedAt": "2026-10-24",
+    "imageId": "d-books",
+    "gallery": [
+      "d-books"
+    ],
+    "price": 1500,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-cat-free",
+    "slug": "cat-free",
+    "demo": true,
+    "kind": "animal",
+    "categoryPath": "zhivotnye/koshki",
+    "title": "Кошка ищет дом",
+    "facts": [
+      "Кошка",
+      "2 года",
+      "В добрые руки"
+    ],
+    "params": [
+      [
+        "Вид",
+        "Кошка"
+      ],
+      [
+        "Возраст",
+        "2 года"
+      ],
+      [
+        "Условия",
+        "В добрые руки"
+      ]
+    ],
+    "description": "Тестовая карточка без цены: проверка режима передачи животного. Животное вымышлено.",
+    "regionId": "moskva",
+    "place": "Москва",
+    "postedAt": "2026-11-01",
+    "imageId": "d-cat",
+    "gallery": [
+      "d-cat"
+    ],
+    "price": null,
+    "priceSuffix": null,
+    "priceLabel": "Бесплатно",
+    "attributes": {
+      "transfer": "gift",
+      "age": "2"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-dog-free",
+    "slug": "dog-free",
+    "demo": true,
+    "kind": "animal",
+    "categoryPath": "zhivotnye/sobaki",
+    "title": "Собака в добрые руки",
+    "facts": [
+      "Собака",
+      "3 года",
+      "Привита"
+    ],
+    "params": [
+      [
+        "Вид",
+        "Собака"
+      ],
+      [
+        "Возраст",
+        "3 года"
+      ],
+      [
+        "Прививки",
+        "Сделаны"
+      ]
+    ],
+    "description": "Тестовая карточка без цены: проверка режима передачи животного. Животное вымышлено.",
+    "regionId": "sankt-peterburg",
+    "place": "Санкт-Петербург",
+    "postedAt": "2026-10-30",
+    "imageId": "tile-dog",
+    "gallery": [
+      "tile-dog"
+    ],
+    "price": null,
+    "priceSuffix": null,
+    "priceLabel": "Бесплатно",
+    "attributes": {
+      "transfer": "gift",
+      "age": "3"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-dog-sale",
+    "slug": "dog-sale",
+    "demo": true,
+    "kind": "animal",
+    "categoryPath": "zhivotnye/sobaki",
+    "title": "Щенок французского бульдога",
+    "facts": [
+      "Щенок",
+      "3 мес.",
+      "Документы"
+    ],
+    "params": [
+      [
+        "Вид",
+        "Собака"
+      ],
+      [
+        "Порода",
+        "Французский бульдог"
+      ],
+      [
+        "Возраст",
+        "3 месяца"
+      ]
+    ],
+    "description": "Тестовая карточка: проверка карточки животного с ценой. Животное вымышлено.",
+    "regionId": "moskva",
+    "place": "Москва",
+    "postedAt": "2026-10-29",
+    "imageId": "d-dog2",
+    "gallery": [
+      "d-dog2"
+    ],
+    "price": 55000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "transfer": "sale",
+      "age": "0"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-cafe-business",
+    "slug": "cafe-business",
+    "demo": true,
+    "kind": "business",
+    "categoryPath": "biznes/gotovyy/obshchepit",
+    "title": "Кофейня, готовый бизнес",
+    "facts": [
+      "Общепит",
+      "Окупаемость 2 года",
+      "Аренда"
+    ],
+    "params": [
+      [
+        "Сфера",
+        "Общепит"
+      ],
+      [
+        "Окупаемость",
+        "2 года"
+      ],
+      [
+        "Площадь",
+        "42 м²"
+      ]
+    ],
+    "description": "Тестовое описание: кофейня с оборудованием и постоянными гостями. Бизнес вымышлен.",
+    "regionId": "moskva",
+    "place": "Москва",
+    "postedAt": "2026-10-28",
+    "imageId": "d-coffee",
+    "gallery": [
+      "d-coffee"
+    ],
+    "price": 3800000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "deal": "sale",
+      "sphere": "общепит"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-cosmetics",
+    "slug": "cosmetics",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "lichnye-veshchi/krasota/kosmetika",
+    "title": "Набор декоративной косметики",
+    "facts": [
+      "Набор",
+      "Новый",
+      "Палетки"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Новый"
+      ],
+      [
+        "Комплект",
+        "Палетки, пудра"
+      ]
+    ],
+    "description": "Тестовое описание: набор для макияжа. Данные вымышлены.",
+    "regionId": "moskva",
+    "place": "Москва",
+    "postedAt": "2026-10-26",
+    "imageId": "tile-beauty",
+    "gallery": [
+      "tile-beauty"
+    ],
+    "price": 3900,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "new",
+      "handoff": "delivery"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-gift-boxes",
+    "slug": "gift-boxes",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "hobbi",
+    "title": "Подарочные коробки, набор",
+    "facts": [
+      "Набор",
+      "Новые",
+      "Праздничные"
+    ],
+    "params": [
+      [
+        "Состояние",
+        "Новые"
+      ],
+      [
+        "Комплект",
+        "5 коробок"
+      ]
+    ],
+    "description": "Тестовое описание: набор упаковки. Данные вымышлены.",
+    "regionId": "tulskaya-oblast",
+    "place": "Тула",
+    "postedAt": "2026-10-25",
+    "imageId": "tile-gift",
+    "gallery": [
+      "tile-gift"
+    ],
+    "price": 2400,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "new",
+      "handoff": "delivery"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-wardrobe-free",
+    "slug": "wardrobe-free",
+    "demo": true,
+    "kind": "free",
+    "categoryPath": "dom-i-dacha",
+    "title": "Шкаф деревянный, заберу даром",
+    "facts": [
+      "Дерево",
+      "Самовывоз",
+      "Даром"
+    ],
+    "params": [
+      [
+        "Условия",
+        "Самовывоз"
+      ],
+      [
+        "Материал",
+        "Дерево"
+      ]
+    ],
+    "description": "Тестовая карточка без цены: проверка механики «Отдам даром». Данные вымышлены.",
+    "regionId": "moskva",
+    "place": "Москва",
+    "postedAt": "2026-10-27",
+    "imageId": "tile-wardrobe",
+    "gallery": [
+      "tile-wardrobe"
+    ],
+    "price": null,
+    "priceSuffix": null,
+    "priceLabel": "Бесплатно",
+    "attributes": {
+      "transfer": "gift"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  }
+]

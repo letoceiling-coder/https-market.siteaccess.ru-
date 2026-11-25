@@ -1,0 +1,130 @@
+[
+  {
+    "id": "debit",
+    "slug": "debit",
+    "term": "Дебит",
+    "definition": "Объём воды, который источник отдаёт за время, без осушения. Его нельзя заменить глубиной скважины.",
+    "relatedServiceIds": [
+      "svc-skvazhiny",
+      "svc-nasosnye-stantsii"
+    ]
+  },
+  {
+    "id": "ugv",
+    "slug": "ugv",
+    "term": "Уровень грунтовых вод",
+    "definition": "Высота воды в грунте. Влияет на фундамент, подвал и возможность поля фильтрации.",
+    "relatedServiceIds": [
+      "svc-septiki",
+      "svc-fundamenty"
+    ]
+  },
+  {
+    "id": "gidrozatvor",
+    "slug": "gidrozatvor",
+    "term": "Гидрозатвор",
+    "definition": "Слой воды в сифоне, который отделяет канализацию от комнаты.",
+    "relatedServiceIds": [
+      "svc-vnutrennyaya-kanalizatsiya"
+    ]
+  },
+  {
+    "id": "uzo",
+    "slug": "uzo",
+    "term": "УЗО",
+    "definition": "Аппарат, отключающий линию при утечке тока. Он не заменяет автомат по перегрузке.",
+    "relatedServiceIds": [
+      "svc-elektricheskie-shchity"
+    ]
+  },
+  {
+    "id": "teplovoy-kontur",
+    "slug": "teplovoy-kontur",
+    "term": "Тепловой контур",
+    "definition": "Непрерывное утепление оболочки. Разрыв на узле важнее лишнего сантиметра на глухой стене.",
+    "relatedServiceIds": [
+      "svc-uteplenie"
+    ]
+  },
+  {
+    "id": "rekuperator",
+    "slug": "rekuperator",
+    "term": "Рекуператор",
+    "definition": "Теплообменник притока и вытяжки. Не заменяет котёл и кондиционер.",
+    "relatedServiceIds": [
+      "svc-rekuperatsiya"
+    ]
+  },
+  {
+    "id": "petlya-pola",
+    "slug": "petlya-pola",
+    "term": "Петля тёплого пола",
+    "definition": "Один контур ограниченной длины. Слишком длинный холодеет к концу.",
+    "relatedServiceIds": [
+      "svc-tyoplye-poly"
+    ]
+  },
+  {
+    "id": "odnolineynaya-skhema",
+    "slug": "odnolineynaya-skhema",
+    "term": "Однолинейная схема",
+    "definition": "Схема щита: группы, сечения и номиналы аппаратов.",
+    "relatedServiceIds": [
+      "svc-elektricheskie-shchity"
+    ]
+  },
+  {
+    "id": "zalpovy-sbros",
+    "slug": "zalpovy-sbros",
+    "term": "Залповый сброс",
+    "definition": "Короткий большой объём стока. Его проверяют отдельно от суточного.",
+    "relatedServiceIds": [
+      "svc-stantsii-ochistki"
+    ]
+  },
+  {
+    "id": "cop",
+    "slug": "cop",
+    "term": "COP",
+    "definition": "Отношение выданного тепла к электричеству при конкретных температурах источника и подачи.",
+    "relatedServiceIds": [
+      "svc-teplovye-nasosy"
+    ]
+  },
+  {
+    "id": "armopoyas",
+    "slug": "armopoyas",
+    "term": "Армопояс",
+    "definition": "Пояс, через который опирают перекрытия на кладку.",
+    "relatedServiceIds": [
+      "svc-gazobeton"
+    ]
+  },
+  {
+    "id": "pritok",
+    "slug": "pritok",
+    "term": "Приток",
+    "definition": "Наружный воздух взамен удалённого. Зимой его нагревают.",
+    "relatedServiceIds": [
+      "svc-pritochnaya"
+    ]
+  },
+  {
+    "id": "vakuumirovanie",
+    "slug": "vakuumirovanie",
+    "term": "Вакуумирование",
+    "definition": "Удаление воздуха и влаги из трассы кондиционера до открытия вентилей.",
+    "relatedServiceIds": [
+      "svc-montazh-konditsionerov"
+    ]
+  },
+  {
+    "id": "gruppa-bezopasnosti",
+    "slug": "gruppa-bezopasnosti",
+    "term": "Группа безопасности",
+    "definition": "Клапан, манометр и воздухоотводчик закрытой системы отопления.",
+    "relatedServiceIds": [
+      "svc-kotelnye"
+    ]
+  }
+]

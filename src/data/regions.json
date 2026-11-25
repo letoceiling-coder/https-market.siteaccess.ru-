@@ -1,0 +1,98 @@
+[
+  {
+    "id": "moskva",
+    "slug": "moskva",
+    "name": "Москва",
+    "kind": "city",
+    "createdAt": "2026-11-01T09:00:00.000Z",
+    "updatedAt": "2026-11-01T09:00:00.000Z"
+  },
+  {
+    "id": "moskovskaya-oblast",
+    "slug": "moskovskaya-oblast",
+    "name": "Московская область",
+    "kind": "region",
+    "createdAt": "2026-11-01T09:00:00.000Z",
+    "updatedAt": "2026-11-01T09:00:00.000Z"
+  },
+  {
+    "id": "sankt-peterburg",
+    "slug": "sankt-peterburg",
+    "name": "Санкт-Петербург",
+    "kind": "city",
+    "createdAt": "2026-11-01T09:00:00.000Z",
+    "updatedAt": "2026-11-01T09:00:00.000Z"
+  },
+  {
+    "id": "leningradskaya-oblast",
+    "slug": "leningradskaya-oblast",
+    "name": "Ленинградская область",
+    "kind": "region",
+    "createdAt": "2026-11-01T09:00:00.000Z",
+    "updatedAt": "2026-11-01T09:00:00.000Z"
+  },
+  {
+    "id": "kaluzhskaya-oblast",
+    "slug": "kaluzhskaya-oblast",
+    "name": "Калужская область",
+    "kind": "region",
+    "createdAt": "2026-11-01T09:00:00.000Z",
+    "updatedAt": "2026-11-01T09:00:00.000Z"
+  },
+  {
+    "id": "tulskaya-oblast",
+    "slug": "tulskaya-oblast",
+    "name": "Тульская область",
+    "kind": "region",
+    "createdAt": "2026-11-01T09:00:00.000Z",
+    "updatedAt": "2026-11-01T09:00:00.000Z"
+  },
+  {
+    "id": "krasnodarskiy-kray",
+    "slug": "krasnodarskiy-kray",
+    "name": "Краснодарский край",
+    "kind": "region",
+    "createdAt": "2026-11-01T09:00:00.000Z",
+    "updatedAt": "2026-11-01T09:00:00.000Z"
+  },
+  {
+    "id": "tatarstan",
+    "slug": "tatarstan",
+    "name": "Татарстан",
+    "kind": "region",
+    "createdAt": "2026-11-01T09:00:00.000Z",
+    "updatedAt": "2026-11-01T09:00:00.000Z"
+  },
+  {
+    "id": "sverdlovskaya-oblast",
+    "slug": "sverdlovskaya-oblast",
+    "name": "Свердловская область",
+    "kind": "region",
+    "createdAt": "2026-11-01T09:00:00.000Z",
+    "updatedAt": "2026-11-01T09:00:00.000Z"
+  },
+  {
+    "id": "novosibirskaya-oblast",
+    "slug": "novosibirskaya-oblast",
+    "name": "Новосибирская область",
+    "kind": "region",
+    "createdAt": "2026-11-01T09:00:00.000Z",
+    "updatedAt": "2026-11-01T09:00:00.000Z"
+  },
+  {
+    "id": "komi",
+    "slug": "komi",
+    "name": "Республика Коми",
+    "kind": "region",
+    "createdAt": "2026-11-01T09:00:00.000Z",
+    "updatedAt": "2026-11-01T09:00:00.000Z"
+  },
+  {
+    "id": "syktyvkar",
+    "slug": "syktyvkar",
+    "name": "Сыктывкар",
+    "kind": "city",
+    "createdAt": "2026-11-01T09:00:00.000Z",
+    "updatedAt": "2026-11-01T09:00:00.000Z"
+  }
+]

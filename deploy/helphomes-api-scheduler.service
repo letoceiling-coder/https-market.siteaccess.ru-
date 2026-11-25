@@ -1,0 +1,22 @@
+[Unit]
+Description=HELP HOMES API scheduler
+After=network.target
+
+[Service]
+Type=simple
+User=helphomes-api
+Group=helphomes-api
+WorkingDirectory=/var/www/helphomes-api
+ExecStart=/usr/bin/php /var/www/helphomes-api/artisan schedule:work
+Restart=always
+RestartSec=5
+Nice=10
+MemoryMax=96M
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ReadWritePaths=/var/www/helphomes-api/storage /var/www/helphomes-api/bootstrap/cache
+SyslogIdentifier=helphomes-api-scheduler
+
+[Install]
+WantedBy=multi-user.target
