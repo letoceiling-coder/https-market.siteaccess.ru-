@@ -44,7 +44,7 @@ async function AdvertisingScreen({ searchParams }: { searchParams: Search }) {
           </dl>
           <ul className="mt-4 space-y-2 text-sm">{current.rules.map((rule) => <li key={rule}>— {rule}</li>)}</ul>
         </article>
-        <div className="rounded-2xl border border-dashed border-primary bg-[#f7fbfa] p-5">
+        <div className="rounded-2xl border border-dashed border-primary bg-tile p-5">
           <p className="text-xs tracking-wide text-primary uppercase">Реклама · предпросмотр</p>
           <p className="mt-3 text-2xl font-semibold">{current.name}</p>
           <p className="mt-2 text-sm leading-6 text-muted-foreground">Здесь будет материал рекламодателя после модерации. Сейчас это пустой макет, он не ведёт на сторонний сайт.</p>

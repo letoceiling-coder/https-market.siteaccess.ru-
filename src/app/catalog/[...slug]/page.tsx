@@ -71,7 +71,7 @@ async function CatalogNode({ params, searchParams }: { params: Params; searchPar
       />
       <div className="mt-3 flex items-end justify-between gap-3">
         <h1 className="text-[22px] leading-7 font-bold">{node.name}</h1>
-        <p className="text-sm text-[#767676]">
+        <p className="text-sm text-muted-foreground">
           {blocked ? 0 : matched.length} {plural(blocked ? 0 : matched.length)}
         </p>
       </div>
@@ -79,7 +79,7 @@ async function CatalogNode({ params, searchParams }: { params: Params; searchPar
         <ul className="mt-3 flex gap-2 overflow-x-auto pb-1">
           {children.map((child) => (
             <li key={child.id}>
-              <Link href={`/catalog/${child.path}`} className="inline-flex h-8 items-center rounded-lg bg-[#f2f1f0] px-3 text-[13px] whitespace-nowrap hover:text-primary">
+              <Link href={`/catalog/${child.path}`} className="inline-flex h-8 items-center rounded-lg bg-tile px-3 text-[13px] whitespace-nowrap hover:text-primary">
                 {child.name}
               </Link>
             </li>
@@ -90,13 +90,13 @@ async function CatalogNode({ params, searchParams }: { params: Params; searchPar
       <div className="mt-4 grid gap-4 lg:grid-cols-[260px_1fr]">
         <FilterWorkspace action={action} values={flat} attributes={attributes} count={matched.length}>
           <label className="block text-sm">
-            <span className="text-[#767676]">Название</span>
-            <input name="q" defaultValue={flat.q ?? ""} className="mt-1 h-10 w-full rounded-lg border border-[#e4e4e4] bg-white px-3" />
+            <span className="text-muted-foreground">Название</span>
+            <input name="q" defaultValue={flat.q ?? ""} className="mt-1 h-10 w-full rounded-lg border border-border bg-white px-3" />
           </label>
           {attributes.filter((item) => item.filter && item.kind === "select").map((item) => (
             <label key={item.id} className="block text-sm">
-              <span className="text-[#767676]">{item.name}</span>
-              <select name={item.id} defaultValue={flat[item.id] ?? ""} className="mt-1 h-10 w-full rounded-lg border border-[#e4e4e4] bg-white px-3">
+              <span className="text-muted-foreground">{item.name}</span>
+              <select name={item.id} defaultValue={flat[item.id] ?? ""} className="mt-1 h-10 w-full rounded-lg border border-border bg-white px-3">
                 <option value="">Любое</option>
                 {item.options.map((option) => (
                   <option key={option.id} value={option.id}>
@@ -109,34 +109,34 @@ async function CatalogNode({ params, searchParams }: { params: Params; searchPar
           {attributes.filter((item) => item.filter && item.kind === "number").map((item) => (
             <div key={item.id} className="grid grid-cols-2 gap-2">
               <label className="text-sm">
-                <span className="text-[#767676]">{item.name} от</span>
-                <input name={`${item.id}Min`} inputMode="numeric" defaultValue={flat[`${item.id}Min`] ?? ""} className="mt-1 h-10 w-full rounded-lg border border-[#e4e4e4] bg-white px-3" />
+                <span className="text-muted-foreground">{item.name} от</span>
+                <input name={`${item.id}Min`} inputMode="numeric" defaultValue={flat[`${item.id}Min`] ?? ""} className="mt-1 h-10 w-full rounded-lg border border-border bg-white px-3" />
               </label>
               <label className="text-sm">
-                <span className="text-[#767676]">до</span>
-                <input name={`${item.id}Max`} inputMode="numeric" defaultValue={flat[`${item.id}Max`] ?? ""} className="mt-1 h-10 w-full rounded-lg border border-[#e4e4e4] bg-white px-3" />
+                <span className="text-muted-foreground">до</span>
+                <input name={`${item.id}Max`} inputMode="numeric" defaultValue={flat[`${item.id}Max`] ?? ""} className="mt-1 h-10 w-full rounded-lg border border-border bg-white px-3" />
               </label>
             </div>
           ))}
           {attributes.filter((item) => item.filter && item.kind === "text").map((item) => (
             <label key={item.id} className="block text-sm">
-              <span className="text-[#767676]">{item.name}</span>
-              <input name={item.id} defaultValue={flat[item.id] ?? ""} className="mt-1 h-10 w-full rounded-lg border border-[#e4e4e4] bg-white px-3" />
+              <span className="text-muted-foreground">{item.name}</span>
+              <input name={item.id} defaultValue={flat[item.id] ?? ""} className="mt-1 h-10 w-full rounded-lg border border-border bg-white px-3" />
             </label>
           ))}
           <div className="grid grid-cols-2 gap-2">
             <label className="text-sm">
-              <span className="text-[#767676]">Цена от</span>
-              <input name="priceMin" inputMode="numeric" defaultValue={flat.priceMin ?? ""} className="mt-1 h-10 w-full rounded-lg border border-[#e4e4e4] bg-white px-3" />
+              <span className="text-muted-foreground">Цена от</span>
+              <input name="priceMin" inputMode="numeric" defaultValue={flat.priceMin ?? ""} className="mt-1 h-10 w-full rounded-lg border border-border bg-white px-3" />
             </label>
             <label className="text-sm">
-              <span className="text-[#767676]">Цена до</span>
-              <input name="priceMax" inputMode="numeric" defaultValue={flat.priceMax ?? ""} className="mt-1 h-10 w-full rounded-lg border border-[#e4e4e4] bg-white px-3" />
+              <span className="text-muted-foreground">Цена до</span>
+              <input name="priceMax" inputMode="numeric" defaultValue={flat.priceMax ?? ""} className="mt-1 h-10 w-full rounded-lg border border-border bg-white px-3" />
             </label>
           </div>
           <label className="block text-sm">
-            <span className="text-[#767676]">Сортировка</span>
-            <select name="sort" defaultValue={flat.sort ?? "new"} className="mt-1 h-10 w-full rounded-lg border border-[#e4e4e4] bg-white px-3">
+            <span className="text-muted-foreground">Сортировка</span>
+            <select name="sort" defaultValue={flat.sort ?? "new"} className="mt-1 h-10 w-full rounded-lg border border-border bg-white px-3">
               <option value="new">Сначала новые</option>
               <option value="price-asc">Сначала дешевле</option>
               <option value="price-desc">Сначала дороже</option>

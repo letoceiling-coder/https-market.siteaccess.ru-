@@ -30,7 +30,7 @@ export function ListingImage({
 
   if (failed) {
     return (
-      <span role="img" aria-label="Фото недоступно" className="absolute inset-0 grid place-content-center justify-items-center gap-1 text-[12px] text-[#767676]">
+      <span role="img" aria-label="Фото недоступно" className="absolute inset-0 grid place-content-center justify-items-center gap-1 text-[12px] text-muted-foreground">
         <ImageOff className="size-6" aria-hidden="true" />
         Фото недоступно
       </span>
@@ -39,7 +39,7 @@ export function ListingImage({
 
   return (
     <>
-      <span aria-hidden="true" className="absolute inset-0 animate-pulse bg-[#e6e4e2]" />
+      <span aria-hidden="true" className="absolute inset-0 animate-pulse bg-tile-strong" />
       <Image
         ref={(element) => {
           // Covers an error that happened before React attached onError.

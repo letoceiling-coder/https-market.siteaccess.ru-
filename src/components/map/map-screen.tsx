@@ -22,7 +22,7 @@ import { cn } from "cn";
 
 const YandexMapView = dynamic(() => import("@/components/map/yandex-map-view").then((mod) => mod.YandexMapView), {
   ssr: false,
-  loading: () => <div className="grid h-full w-full place-items-center bg-[#e8eef3] text-sm text-[#767676]">Загрузка карты…</div>,
+  loading: () => <div className="grid h-full w-full place-items-center bg-tile text-sm text-muted-foreground">Загрузка карты…</div>,
 });
 
 const VIEW_KEY = "hh.map.view";
@@ -167,7 +167,7 @@ export function MapScreen({ points, initialView, demo = false }: { points: MapPo
         </li>
       ))}
       {filtered.length === 0 ? (
-        <li className="px-1 py-6 text-center text-sm text-[#767676]">
+        <li className="px-1 py-6 text-center text-sm text-muted-foreground">
           {region.id ? "В выбранном регионе нет объявлений с координатами." : "Нет объявлений по текущим фильтрам."}
         </li>
       ) : null}
@@ -228,12 +228,12 @@ export function MapScreen({ points, initialView, demo = false }: { points: MapPo
               <div className="mb-3">{filters}</div>
               <p className="mb-2 text-sm font-semibold">
                 Найдено {filtered.length} {plural(filtered.length)}
-                {demo ? <span className="font-normal text-[#767676]"> (DEMO)</span> : null}
+                {demo ? <span className="font-normal text-muted-foreground"> (DEMO)</span> : null}
               </p>
               {geoError ? <p className="mb-2 text-xs text-destructive">{geoError}</p> : null}
               <div className="min-h-0 flex-1 overflow-y-auto pr-1">{resultsList}</div>
             </div>
-            <div className="relative h-[calc(100vh-180px)] overflow-hidden rounded-2xl border border-[#e4e4e4]">
+            <div className="relative h-[calc(100vh-180px)] overflow-hidden rounded-2xl border border-border">
               {canvas}
               <div className="absolute top-3 right-3 z-10">
                 <MapControls
@@ -261,13 +261,13 @@ export function MapScreen({ points, initialView, demo = false }: { points: MapPo
 
   return (
     <YandexMapProvider>
-      <div className="fixed inset-x-0 top-0 bottom-[calc(3.5rem+env(safe-area-inset-bottom))] z-30 flex flex-col bg-white lg:static lg:inset-auto lg:z-0 lg:bg-transparent">
-        <div className="z-10 shrink-0 border-b border-[#ededed] bg-white px-3 pt-[max(0.5rem,env(safe-area-inset-top))] pb-2">
+      <div className="fixed inset-x-0 top-0 bottom-0 z-30 pb-[calc(4.75rem+env(safe-area-inset-bottom))] lg:pb-0 flex flex-col bg-white lg:static lg:inset-auto lg:z-0 lg:bg-transparent">
+        <div className="z-10 shrink-0 border-b border-border bg-white px-3 pt-[max(0.5rem,env(safe-area-inset-top))] pb-2">
           <div className="mb-2 flex items-center gap-2">
             <Link href="/catalog" className="flex h-10 shrink-0 items-center gap-1 text-[14px] font-medium text-foreground">
               ← Назад
             </Link>
-            <p className="min-w-0 flex-1 truncate text-center text-[13px] font-semibold text-[#222]">Карта</p>
+            <p className="min-w-0 flex-1 truncate text-center text-[13px] font-semibold text-foreground">Карта</p>
             <MapListToggle list={mobileList} onToggle={() => setMobileList((value) => !value)} />
           </div>
           {filters}
@@ -321,19 +321,19 @@ export function MapScreen({ points, initialView, demo = false }: { points: MapPo
 
 function ResultCard({ point, active, onSelect }: { point: MapPoint; active: boolean; onSelect: () => void }) {
   return (
-    <div className={cn("flex gap-3 rounded-xl border bg-white p-2", active ? "border-primary ring-1 ring-primary" : "border-[#ededed]")}>
+    <div className={cn("flex gap-3 rounded-xl border bg-white p-2", active ? "border-primary ring-1 ring-primary" : "border-border")}>
       <button type="button" onClick={onSelect} className="flex min-w-0 flex-1 gap-3 text-left">
-        <span className="relative block size-[72px] shrink-0 overflow-hidden rounded-lg bg-[#f2f1f0]">
+        <span className="relative block size-[72px] shrink-0 overflow-hidden rounded-lg bg-tile">
           {point.media ? <ListingImage src={point.media.src} alt={point.media.alt} sizes="72px" /> : null}
         </span>
         <span className="min-w-0 flex-1">
-          <span className="rounded bg-[#222]/80 px-1 py-0.5 text-[9px] font-semibold tracking-wide text-white">DEMO</span>
-          <span className="mt-0.5 line-clamp-2 block text-[14px] leading-[18px] text-[#222]">{point.title}</span>
+          <span className="rounded bg-foreground/80 px-1 py-0.5 text-[9px] font-semibold tracking-wide text-white">DEMO</span>
+          <span className="mt-0.5 line-clamp-2 block text-[14px] leading-[18px] text-foreground">{point.title}</span>
           <span className="mt-0.5 block text-[15px] font-bold">{point.priceShort}</span>
-          <span className="block truncate text-[12px] text-[#767676]">{point.place}</span>
+          <span className="block truncate text-[12px] text-muted-foreground">{point.place}</span>
         </span>
       </button>
-      <Link href={`/samples/${point.slug}`} className="self-center rounded-lg bg-[#f2f1f0] px-3 py-2 text-[12px] font-medium text-primary">
+      <Link href={`/samples/${point.slug}`} className="self-center rounded-lg bg-tile px-3 py-2 text-[12px] font-medium text-primary">
         Открыть
       </Link>
     </div>

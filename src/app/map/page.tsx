@@ -11,7 +11,7 @@ type Search = Promise<Record<string, string | string[] | undefined>>;
 
 export default function MapPage({ searchParams }: { searchParams: Search }) {
   return (
-    <Suspense fallback={<div className="grid h-[70vh] place-items-center text-sm text-[#767676]">Загрузка карты…</div>}>
+    <Suspense fallback={<div className="grid h-[70vh] place-items-center text-sm text-muted-foreground">Загрузка карты…</div>}>
       <MapRoute searchParams={searchParams} />
     </Suspense>
   );

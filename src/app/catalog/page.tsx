@@ -28,7 +28,7 @@ export default function CatalogIndexPage() {
               <ul className="mt-2 space-y-1">
                 {getTaxonChildren(root.id).slice(0, 7).map((child) => (
                   <li key={child.id}>
-                    <Link href={`/catalog/${child.path}`} className="text-[14px] text-[#555] hover:text-primary">{child.name}</Link>
+                    <Link href={`/catalog/${child.path}`} className="text-[14px] text-muted-foreground hover:text-primary">{child.name}</Link>
                   </li>
                 ))}
               </ul>
@@ -36,10 +36,10 @@ export default function CatalogIndexPage() {
           ))}
         </div>
       </section>
-      <section className="mt-8 rounded-2xl bg-[#f2f1f0] p-4">
+      <section className="mt-8 rounded-2xl bg-tile p-4">
         <h2 className="text-[16px] font-bold">Что не публикуется</h2>
-        <p className="mt-1 text-[13px] leading-5 text-[#555]">{policy.note}</p>
-        <ul className="mt-2 grid gap-x-6 gap-y-0.5 text-[13px] text-[#555] sm:grid-cols-2">
+        <p className="mt-1 text-[13px] leading-5 text-muted-foreground">{policy.note}</p>
+        <ul className="mt-2 grid gap-x-6 gap-y-0.5 text-[13px] text-muted-foreground sm:grid-cols-2">
           {policy.banned.map((item) => <li key={item}>{item}</li>)}
         </ul>
       </section>

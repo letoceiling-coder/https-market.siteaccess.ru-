@@ -14,7 +14,7 @@ export function FavoritesScreen({ items }: { items: ListingCardData[] }) {
   const saved = items.filter((item) => favorites.ids.includes(item.id));
   const seen = recent.ids.map((id) => items.find((item) => item.id === id)).filter((item) => item !== undefined);
 
-  if (!favorites.ready) return <p className="mt-6 text-sm text-[#767676]">Открываем локальный список…</p>;
+  if (!favorites.ready) return <p className="mt-6 text-sm text-muted-foreground">Открываем локальный список…</p>;
 
   return (
     <div className="mt-5 space-y-10">

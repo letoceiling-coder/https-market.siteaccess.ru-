@@ -4,11 +4,57 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* Self-hosted variable fonts (SIL OFL): Onest for UI, Unbounded for headings. */
+@font-face {
+  font-family: "Onest";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url("/fonts/onest-cyrillic-wght-normal.woff2") format("woff2-variations");
+  unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+}
+@font-face {
+  font-family: "Onest";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url("/fonts/onest-latin-wght-normal.woff2") format("woff2-variations");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD,U+20BD;
+}
+@font-face {
+  font-family: "Unbounded";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url("/fonts/unbounded-cyrillic-wght-normal.woff2") format("woff2-variations");
+  unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+}
+@font-face {
+  font-family: "Unbounded";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url("/fonts/unbounded-latin-wght-normal.woff2") format("woff2-variations");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD,U+20BD;
+}
+
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-inter), "Segoe UI", sans-serif;
+  --font-sans: "Onest", "Segoe UI", system-ui, sans-serif;
+  --font-display: "Unbounded", "Onest", sans-serif;
   --color-gold: #d4a96c;
+  --color-tile: var(--tile);
+  --color-tile-strong: var(--tile-strong);
+  --color-ink: var(--ink);
+  --color-paper: var(--paper);
+  --color-signal: var(--signal);
+  --color-signal-foreground: var(--signal-foreground);
+  --color-input-strong: var(--input-strong);
+  --color-accent-strong: var(--accent-strong);
+  --color-primary-strong: var(--primary-strong);
+  --shadow-float: 0 10px 30px -12px rgb(16 40 32 / 0.35), 0 2px 6px -2px rgb(16 40 32 / 0.12);
   --font-mono: var(--font-geist-mono);
   --font-heading: var(--font-sans);
   --color-sidebar-ring: var(--sidebar-ring);
@@ -50,25 +96,34 @@
 }
 
 :root {
-  --background: #ffffff;
-  --foreground: #222222;
-  --tile: #f2f1f0;
+  /* HELP HOMES palette: spruce (trust, homes, growth) on a cool sage paper. */
+  --background: #f3f5f1;
+  --paper: #f3f5f1;
+  --foreground: #16201c;
+  --ink: #16201c;
+  --tile: #e6eae3;
+  --tile-strong: #d9dfd6;
   --card: #ffffff;
-  --card-foreground: #222222;
+  --card-foreground: #16201c;
   --popover: #ffffff;
-  --popover-foreground: #222222;
-  --primary: #0a6cff;
+  --popover-foreground: #16201c;
+  --primary: #0d6b57;
+  --primary-strong: #09543f;
   --primary-foreground: #ffffff;
-  --secondary: #f5f5f5;
-  --secondary-foreground: #222222;
-  --muted: #f5f5f5;
-  --muted-foreground: #737373;
-  --accent: #e8f1ff;
-  --accent-foreground: #0a6cff;
-  --destructive: #d12b2b;
-  --border: #e4e4e4;
-  --input: #e4e4e4;
-  --ring: #0a6cff;
+  --secondary: #e6eae3;
+  --secondary-foreground: #16201c;
+  --muted: #e6eae3;
+  --muted-foreground: #5f6b65;
+  --accent: #dcefe6;
+  --accent-strong: #c8e6d8;
+  --accent-foreground: #0d6b57;
+  --signal: #ffd449;
+  --signal-foreground: #2a2100;
+  --destructive: #c8372d;
+  --border: #dde2da;
+  --input: #dde2da;
+  --input-strong: #c3cbc0;
+  --ring: #0d6b57;
   --gold: #d4a96c;
   --color-gold: #d4a96c;
   --chart-1: oklch(0.87 0 0);
@@ -131,6 +186,12 @@
   }
   body {
     @apply bg-background text-foreground;
+    -webkit-tap-highlight-color: transparent;
+    font-feature-settings: "tnum" 0;
+  }
+  h1, h2, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
   }
   :focus-visible {
     outline: 2px solid var(--ring);
@@ -189,3 +250,10 @@
     scroll-behavior: auto !important;
   }
 }
+/* App-like helpers */
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.tabular { font-variant-numeric: tabular-nums; }
+.press { transition: transform 120ms ease; }
+.press:active { transform: scale(0.97); }
+@media (prefers-reduced-motion: reduce) { .press:active { transform: none; } }

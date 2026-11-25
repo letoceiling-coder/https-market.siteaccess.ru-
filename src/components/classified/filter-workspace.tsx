@@ -71,7 +71,7 @@ export function FilterWorkspace({
         <button
           type="button"
           onClick={() => setOpen(true)}
-          className="flex h-9 shrink-0 items-center gap-1.5 rounded-full bg-[#222] px-3 text-[13px] font-medium text-white"
+          className="flex h-9 shrink-0 items-center gap-1.5 rounded-full bg-foreground px-3 text-[13px] font-medium text-white"
         >
           <SlidersHorizontal className="size-4" aria-hidden="true" />
           Все фильтры
@@ -82,7 +82,7 @@ export function FilterWorkspace({
             key={chip.id}
             type="button"
             onClick={() => removeChip(chip.id)}
-            className="flex h-9 shrink-0 items-center gap-1 rounded-full bg-[#e5f6ff] px-3 text-[13px] text-primary"
+            className="flex h-9 shrink-0 items-center gap-1 rounded-full bg-accent px-3 text-[13px] text-primary"
           >
             {chip.label}
             <X className="size-3.5" aria-hidden="true" />
@@ -91,14 +91,14 @@ export function FilterWorkspace({
       </div>
 
       <div className="hidden lg:block">
-        <ClientForm action={action} className="space-y-3 rounded-2xl bg-[#f2f1f0] p-3">
+        <ClientForm action={action} className="space-y-3 rounded-2xl bg-tile p-3">
           {children}
         </ClientForm>
       </div>
 
       {open ? (
         <div className="fixed inset-0 z-50 flex flex-col bg-white lg:hidden" role="dialog" aria-modal="true" aria-label="Фильтры">
-          <div className="flex h-12 items-center justify-between border-b border-[#ededed] px-2">
+          <div className="flex h-12 items-center justify-between border-b border-border px-2">
             <button type="button" className="grid size-11 place-items-center" onClick={() => setOpen(false)} aria-label="Назад">
               <X className="size-5" aria-hidden="true" />
             </button>
@@ -109,11 +109,11 @@ export function FilterWorkspace({
           </div>
           <div className="flex-1 overflow-y-auto px-4 py-3">
             <Field label="Название">
-              <input value={draft.q ?? ""} onChange={(event) => setField("q", event.target.value)} className="h-11 w-full rounded-xl border border-[#e4e4e4] px-3" />
+              <input value={draft.q ?? ""} onChange={(event) => setField("q", event.target.value)} className="h-11 w-full rounded-xl border border-border px-3" />
             </Field>
             {attributes.filter((item) => item.filter && item.kind === "select").map((item) => (
               <Field key={item.id} label={item.name}>
-                <select value={draft[item.id] ?? ""} onChange={(event) => setField(item.id, event.target.value)} className="h-11 w-full rounded-xl border border-[#e4e4e4] px-3">
+                <select value={draft[item.id] ?? ""} onChange={(event) => setField(item.id, event.target.value)} className="h-11 w-full rounded-xl border border-border px-3">
                   <option value="">Любое</option>
                   {item.options.map((option) => (
                     <option key={option.id} value={option.id}>{option.name}</option>
@@ -124,35 +124,35 @@ export function FilterWorkspace({
             {attributes.filter((item) => item.filter && item.kind === "number").map((item) => (
               <div key={item.id} className="mb-3 grid grid-cols-2 gap-2">
                 <Field label={`${item.name} от`}>
-                  <input inputMode="numeric" value={draft[`${item.id}Min`] ?? ""} onChange={(event) => setField(`${item.id}Min`, event.target.value)} className="h-11 w-full rounded-xl border border-[#e4e4e4] px-3" />
+                  <input inputMode="numeric" value={draft[`${item.id}Min`] ?? ""} onChange={(event) => setField(`${item.id}Min`, event.target.value)} className="h-11 w-full rounded-xl border border-border px-3" />
                 </Field>
                 <Field label="до">
-                  <input inputMode="numeric" value={draft[`${item.id}Max`] ?? ""} onChange={(event) => setField(`${item.id}Max`, event.target.value)} className="h-11 w-full rounded-xl border border-[#e4e4e4] px-3" />
+                  <input inputMode="numeric" value={draft[`${item.id}Max`] ?? ""} onChange={(event) => setField(`${item.id}Max`, event.target.value)} className="h-11 w-full rounded-xl border border-border px-3" />
                 </Field>
               </div>
             ))}
             {attributes.filter((item) => item.filter && item.kind === "text").map((item) => (
               <Field key={item.id} label={item.name}>
-                <input value={draft[item.id] ?? ""} onChange={(event) => setField(item.id, event.target.value)} className="h-11 w-full rounded-xl border border-[#e4e4e4] px-3" />
+                <input value={draft[item.id] ?? ""} onChange={(event) => setField(item.id, event.target.value)} className="h-11 w-full rounded-xl border border-border px-3" />
               </Field>
             ))}
             <div className="mb-3 grid grid-cols-2 gap-2">
               <Field label="Цена от">
-                <input inputMode="numeric" value={draft.priceMin ?? ""} onChange={(event) => setField("priceMin", event.target.value)} className="h-11 w-full rounded-xl border border-[#e4e4e4] px-3" />
+                <input inputMode="numeric" value={draft.priceMin ?? ""} onChange={(event) => setField("priceMin", event.target.value)} className="h-11 w-full rounded-xl border border-border px-3" />
               </Field>
               <Field label="Цена до">
-                <input inputMode="numeric" value={draft.priceMax ?? ""} onChange={(event) => setField("priceMax", event.target.value)} className="h-11 w-full rounded-xl border border-[#e4e4e4] px-3" />
+                <input inputMode="numeric" value={draft.priceMax ?? ""} onChange={(event) => setField("priceMax", event.target.value)} className="h-11 w-full rounded-xl border border-border px-3" />
               </Field>
             </div>
             <Field label="Сортировка">
-              <select value={draft.sort ?? "new"} onChange={(event) => setField("sort", event.target.value)} className="h-11 w-full rounded-xl border border-[#e4e4e4] px-3">
+              <select value={draft.sort ?? "new"} onChange={(event) => setField("sort", event.target.value)} className="h-11 w-full rounded-xl border border-border px-3">
                 <option value="new">Сначала новые</option>
                 <option value="price-asc">Сначала дешевле</option>
                 <option value="price-desc">Сначала дороже</option>
               </select>
             </Field>
           </div>
-          <div className="border-t border-[#ededed] p-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))]">
+          <div className="border-t border-border p-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))]">
             <button type="button" className="h-12 w-full rounded-xl bg-primary text-[15px] font-semibold text-white" onClick={() => apply(draft)}>
               Показать результаты
             </button>
@@ -166,7 +166,7 @@ export function FilterWorkspace({
 function Field({ label, children }: { label: string; children: ReactNode }) {
   return (
     <label className={cn("mb-3 block text-sm")}>
-      <span className="text-[#767676]">{label}</span>
+      <span className="text-muted-foreground">{label}</span>
       <span className="mt-1 block">{children}</span>
     </label>
   );

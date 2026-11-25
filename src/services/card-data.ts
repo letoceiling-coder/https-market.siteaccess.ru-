@@ -17,6 +17,8 @@ export function demoCardData(item: ClassifiedDemo): ListingCardData {
     date: formatPostedAt(item.postedAt),
     media: getMedia(item.imageId),
     badge: "DEMO",
+    mediaCount: Math.max(1, item.gallery.length),
+    hasVideo: Boolean(item.video),
     listOnMobile: LIST_KINDS.has(item.kind),
   };
 }

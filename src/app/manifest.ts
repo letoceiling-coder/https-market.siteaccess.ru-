@@ -7,8 +7,8 @@ export default function manifest(): MetadataRoute.Manifest {
     description: "Каталог объявлений: жильё, транспорт, работа, услуги и товары.",
     start_url: "/",
     display: "standalone",
-    background_color: "#f2f3f5",
-    theme_color: "#0a6cff",
+    background_color: "#f3f5f1",
+    theme_color: "#0d6b57",
     lang: "ru",
   };
 }

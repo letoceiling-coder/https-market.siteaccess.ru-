@@ -17,7 +17,7 @@ export function ShareButton({ title }: { title: string }) {
   }
 
   return (
-    <button type="button" onClick={share} className="grid h-12 w-12 place-items-center rounded-xl bg-[#f2f1f0]" aria-label="Поделиться">
+    <button type="button" onClick={share} className="grid h-12 w-12 place-items-center rounded-xl bg-tile" aria-label="Поделиться">
       <Share2 className="size-5" aria-hidden="true" />
     </button>
   );

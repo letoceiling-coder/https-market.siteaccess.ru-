@@ -20,7 +20,8 @@ if [[ ! -f "$SHARED/.env" ]]; then
 NODE_ENV=production
 HOSTNAME=127.0.0.1
 PORT=3110
-UI_DEMO_MODE=false
+UI_DEMO_MODE=true
+NEXT_PUBLIC_SITE_URL=https://market.siteaccess.ru
 EOF
   chown market:market "$SHARED/.env"
   chmod 640 "$SHARED/.env"
@@ -34,8 +35,12 @@ else
   npm install
 fi
 
-# Production build without DEMO listings in public feed.
-UI_DEMO_MODE=false NODE_ENV=production npx next build
+# Build with the flags of shared/.env (UI_DEMO_MODE=true shows the test listings).
+set -a
+# shellcheck disable=SC1091
+source "$SHARED/.env"
+set +a
+NODE_ENV=production npx next build
 
 mkdir -p "$RELEASE"
 cp -a "$SRC/.next/standalone/." "$RELEASE/"

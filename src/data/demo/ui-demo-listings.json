@@ -1,5 +1,2009 @@
 [
   {
+    "id": "demo-g-flat-2k-loft",
+    "slug": "g-flat-2k-loft",
+    "demo": true,
+    "kind": "realty",
+    "categoryPath": "nedvizhimost/kvartiry/vtorichka/dvuhkomnatnye",
+    "title": "2-к. квартира, 58 м², 7/12 эт.",
+    "facts": [
+      "58 м²",
+      "7/12 эт.",
+      "2 комнаты"
+    ],
+    "params": [
+      [
+        "Комнат",
+        "2"
+      ],
+      [
+        "Площадь",
+        "58 м²"
+      ],
+      [
+        "Этаж",
+        "7 из 12"
+      ],
+      [
+        "Ремонт",
+        "Евро"
+      ],
+      [
+        "Санузел",
+        "Раздельный"
+      ]
+    ],
+    "description": "Светлая квартира с ремонтом 2024 года. Окна во двор, рядом парк и школа. Остаётся встроенная кухня и шкафы.",
+    "regionId": "moskva",
+    "place": "Москва, ЮЗАО",
+    "postedAt": "2026-11-24",
+    "imageId": "g-flat-2k-loft-1",
+    "gallery": [
+      "g-flat-2k-loft-1",
+      "g-flat-2k-loft-2",
+      "g-flat-2k-loft-3",
+      "g-flat-2k-loft-4"
+    ],
+    "video": {
+      "src": "/media/g/g-flat-2k-loft.mp4",
+      "poster": "/media/g/g-flat-2k-loft-1.webp"
+    },
+    "price": 16900000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "deal": "sale",
+      "rooms": "2",
+      "area": "58",
+      "floor": "7"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-flat-studio-spb",
+    "slug": "g-flat-studio-spb",
+    "demo": true,
+    "kind": "realty",
+    "categoryPath": "nedvizhimost/kvartiry",
+    "title": "Квартира-студия, 27 м², 3/9 эт.",
+    "facts": [
+      "27 м²",
+      "3/9 эт.",
+      "студия"
+    ],
+    "params": [
+      [
+        "Комнат",
+        "Студия"
+      ],
+      [
+        "Площадь",
+        "27 м²"
+      ],
+      [
+        "Этаж",
+        "3 из 9"
+      ],
+      [
+        "Ремонт",
+        "Косметический"
+      ]
+    ],
+    "description": "Компактная студия у метро. Новая мебель, стиральная машина, интернет. Долгосрочно, без животных.",
+    "regionId": "sankt-peterburg",
+    "place": "Санкт-Петербург, Московский р-н",
+    "postedAt": "2026-11-23",
+    "imageId": "g-flat-studio-spb-1",
+    "gallery": [
+      "g-flat-studio-spb-1",
+      "g-flat-studio-spb-2",
+      "g-flat-studio-spb-3"
+    ],
+    "video": null,
+    "price": 38000,
+    "priceSuffix": "в месяц",
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "deal": "rent_long",
+      "rooms": "studio",
+      "area": "27",
+      "floor": "3"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-house-brick",
+    "slug": "g-house-brick",
+    "demo": true,
+    "kind": "realty",
+    "categoryPath": "nedvizhimost/doma/kottedzhi",
+    "title": "Дом 164 м² на участке 10 сот.",
+    "facts": [
+      "164 м²",
+      "10 сот.",
+      "кирпич"
+    ],
+    "params": [
+      [
+        "Площадь дома",
+        "164 м²"
+      ],
+      [
+        "Участок",
+        "10 сот."
+      ],
+      [
+        "Материал стен",
+        "Кирпич"
+      ],
+      [
+        "Отопление",
+        "Газ"
+      ],
+      [
+        "Год постройки",
+        "2019"
+      ]
+    ],
+    "description": "Двухэтажный дом в коттеджном посёлке. Газ, центральная вода, баня на участке. Асфальт до ворот.",
+    "regionId": "moskovskaya-oblast",
+    "place": "Истра, КП «Лесное»",
+    "postedAt": "2026-11-22",
+    "imageId": "g-house-brick-1",
+    "gallery": [
+      "g-house-brick-1",
+      "g-house-brick-2",
+      "g-house-brick-3",
+      "g-house-brick-4"
+    ],
+    "video": {
+      "src": "/media/g/g-house-brick.mp4",
+      "poster": "/media/g/g-house-brick-1.webp"
+    },
+    "price": 24500000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "deal": "sale",
+      "area": "164"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-dacha-wood",
+    "slug": "g-dacha-wood",
+    "demo": true,
+    "kind": "realty",
+    "categoryPath": "nedvizhimost/doma/dachi",
+    "title": "Дача 48 м² на участке 6 сот.",
+    "facts": [
+      "48 м²",
+      "6 сот.",
+      "брус"
+    ],
+    "params": [
+      [
+        "Площадь дома",
+        "48 м²"
+      ],
+      [
+        "Участок",
+        "6 сот."
+      ],
+      [
+        "Материал стен",
+        "Брус"
+      ],
+      [
+        "Электричество",
+        "15 кВт"
+      ]
+    ],
+    "description": "Дача в СНТ у реки. Тёплый дом из бруса, теплица, плодовые деревья. Круглогодичный подъезд.",
+    "regionId": "tulskaya-oblast",
+    "place": "Алексин, СНТ «Ока»",
+    "postedAt": "2026-11-20",
+    "imageId": "g-dacha-wood-1",
+    "gallery": [
+      "g-dacha-wood-1",
+      "g-dacha-wood-2",
+      "g-dacha-wood-3"
+    ],
+    "video": null,
+    "price": 2350000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "deal": "sale",
+      "area": "48"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-office-center",
+    "slug": "g-office-center",
+    "demo": true,
+    "kind": "realty",
+    "categoryPath": "nedvizhimost/kommercheskaya",
+    "title": "Офис 86 м² в бизнес-центре",
+    "facts": [
+      "86 м²",
+      "БЦ класса B",
+      "4 кабинета"
+    ],
+    "params": [
+      [
+        "Площадь",
+        "86 м²"
+      ],
+      [
+        "Назначение",
+        "Офис"
+      ],
+      [
+        "Этаж",
+        "5"
+      ],
+      [
+        "Парковка",
+        "Есть"
+      ]
+    ],
+    "description": "Офисный блок с ремонтом: опенспейс, переговорная и кухня. Арендные каникулы месяц.",
+    "regionId": "tatarstan",
+    "place": "Казань, ул. Чистопольская",
+    "postedAt": "2026-11-21",
+    "imageId": "g-office-center-1",
+    "gallery": [
+      "g-office-center-1",
+      "g-office-center-2"
+    ],
+    "video": null,
+    "price": 145000,
+    "priceSuffix": "в месяц",
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "deal": "rent_long",
+      "area": "86",
+      "purpose": "office"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-land-izhs",
+    "slug": "g-land-izhs",
+    "demo": true,
+    "kind": "realty",
+    "categoryPath": "nedvizhimost/uchastki",
+    "title": "Участок 12 сот. (ИЖС)",
+    "facts": [
+      "12 сот.",
+      "ИЖС",
+      "свет по границе"
+    ],
+    "params": [
+      [
+        "Площадь",
+        "12 сот."
+      ],
+      [
+        "Назначение",
+        "ИЖС"
+      ],
+      [
+        "Коммуникации",
+        "Свет, газ в 2027"
+      ]
+    ],
+    "description": "Ровный участок у леса, хорошая дорога. Документы готовы, один собственник.",
+    "regionId": "kaluzhskaya-oblast",
+    "place": "Обнинск, д. Белкино",
+    "postedAt": "2026-11-19",
+    "imageId": "g-land-izhs-1",
+    "gallery": [
+      "g-land-izhs-1",
+      "g-land-izhs-2"
+    ],
+    "video": null,
+    "price": 1450000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "deal": "sale",
+      "purpose": "izhs",
+      "area": "12"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-car-sedan-white",
+    "slug": "g-car-sedan-white",
+    "demo": true,
+    "kind": "vehicle",
+    "categoryPath": "transport/legkovye/s-probegom",
+    "title": "Седан, 2020, 54 000 км",
+    "facts": [
+      "2020",
+      "54 000 км",
+      "1.6 AT"
+    ],
+    "params": [
+      [
+        "Год выпуска",
+        "2020"
+      ],
+      [
+        "Пробег",
+        "54 000 км"
+      ],
+      [
+        "Двигатель",
+        "1.6 л, бензин"
+      ],
+      [
+        "Коробка",
+        "Автомат"
+      ],
+      [
+        "Владельцев",
+        "1"
+      ]
+    ],
+    "description": "Один владелец, обслуживание у дилера. Не битый, зимняя резина в подарок.",
+    "regionId": "krasnodarskiy-kray",
+    "place": "Краснодар",
+    "postedAt": "2026-11-24",
+    "imageId": "g-car-sedan-white-1",
+    "gallery": [
+      "g-car-sedan-white-1",
+      "g-car-sedan-white-2",
+      "g-car-sedan-white-3",
+      "g-car-sedan-white-4"
+    ],
+    "video": {
+      "src": "/media/g/g-car-sedan-white.mp4",
+      "poster": "/media/g/g-car-sedan-white-1.webp"
+    },
+    "price": 1590000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "year": "2020",
+      "mileage": "54000",
+      "brand": "Седан"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-car-suv-dark",
+    "slug": "g-car-suv-dark",
+    "demo": true,
+    "kind": "vehicle",
+    "categoryPath": "transport/legkovye/s-probegom",
+    "title": "Кроссовер, 2018, 97 000 км",
+    "facts": [
+      "2018",
+      "97 000 км",
+      "2.0 4WD"
+    ],
+    "params": [
+      [
+        "Год выпуска",
+        "2018"
+      ],
+      [
+        "Пробег",
+        "97 000 км"
+      ],
+      [
+        "Привод",
+        "Полный"
+      ],
+      [
+        "Коробка",
+        "Автомат"
+      ]
+    ],
+    "description": "Полный привод, подогрев всего, камера заднего вида. Сервисная книжка.",
+    "regionId": "sverdlovskaya-oblast",
+    "place": "Екатеринбург",
+    "postedAt": "2026-11-23",
+    "imageId": "g-car-suv-dark-1",
+    "gallery": [
+      "g-car-suv-dark-1",
+      "g-car-suv-dark-2",
+      "g-car-suv-dark-3"
+    ],
+    "video": null,
+    "price": 2190000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "year": "2018",
+      "mileage": "97000",
+      "brand": "Кроссовер"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-scooter",
+    "slug": "g-scooter",
+    "demo": true,
+    "kind": "vehicle",
+    "categoryPath": "transport/moto",
+    "title": "Скутер 50 см³, 2022",
+    "facts": [
+      "2022",
+      "3 100 км",
+      "50 см³"
+    ],
+    "params": [
+      [
+        "Год выпуска",
+        "2022"
+      ],
+      [
+        "Пробег",
+        "3 100 км"
+      ],
+      [
+        "Объём",
+        "50 см³"
+      ]
+    ],
+    "description": "Без прав категории A. Зимовал в гараже, новая АКБ.",
+    "regionId": "moskva",
+    "place": "Москва, САО",
+    "postedAt": "2026-11-18",
+    "imageId": "g-scooter-1",
+    "gallery": [
+      "g-scooter-1",
+      "g-scooter-2"
+    ],
+    "video": null,
+    "price": 89000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "year": "2022",
+      "mileage": "3100",
+      "brand": "Скутер"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-boat",
+    "slug": "g-boat",
+    "demo": true,
+    "kind": "vehicle",
+    "categoryPath": "transport/vodnyy",
+    "title": "Лодка ПВХ 3.6 м с мотором",
+    "facts": [
+      "2021",
+      "3.6 м",
+      "9.8 л.с."
+    ],
+    "params": [
+      [
+        "Год выпуска",
+        "2021"
+      ],
+      [
+        "Длина",
+        "3.6 м"
+      ],
+      [
+        "Мотор",
+        "9.8 л.с."
+      ]
+    ],
+    "description": "Надувная лодка с килем и мотором. Пайолы, вёсла, насос и чехол в комплекте.",
+    "regionId": "novosibirskaya-oblast",
+    "place": "Новосибирск",
+    "postedAt": "2026-11-17",
+    "imageId": "g-boat-1",
+    "gallery": [
+      "g-boat-1",
+      "g-boat-2"
+    ],
+    "video": {
+      "src": "/media/g/g-boat.mp4",
+      "poster": "/media/g/g-boat-1.webp"
+    },
+    "price": 168000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "year": "2021",
+      "brand": "ПВХ"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-phone-graphite",
+    "slug": "g-phone-graphite",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "elektronika/telefony",
+    "title": "Смартфон 256 ГБ, графит",
+    "facts": [
+      "256 ГБ",
+      "аккумулятор 91%",
+      "чек"
+    ],
+    "params": [
+      [
+        "Память",
+        "256 ГБ"
+      ],
+      [
+        "Цвет",
+        "Графит"
+      ],
+      [
+        "Состояние",
+        "Отличное"
+      ],
+      [
+        "Комплект",
+        "Коробка, кабель"
+      ]
+    ],
+    "description": "Пользовался аккуратно, всегда в чехле. Без сколов, гарантия до марта.",
+    "regionId": "moskva",
+    "place": "Москва, ЦАО",
+    "postedAt": "2026-11-25",
+    "imageId": "g-phone-graphite-1",
+    "gallery": [
+      "g-phone-graphite-1",
+      "g-phone-graphite-2",
+      "g-phone-graphite-3"
+    ],
+    "video": null,
+    "price": 54000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-laptop-silver",
+    "slug": "g-laptop-silver",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "elektronika/noutbuki",
+    "title": "Ноутбук 14\", 16 ГБ, SSD 512",
+    "facts": [
+      "14\"",
+      "16 ГБ",
+      "SSD 512 ГБ"
+    ],
+    "params": [
+      [
+        "Диагональ",
+        "14\""
+      ],
+      [
+        "ОЗУ",
+        "16 ГБ"
+      ],
+      [
+        "Накопитель",
+        "SSD 512 ГБ"
+      ],
+      [
+        "Состояние",
+        "Хорошее"
+      ]
+    ],
+    "description": "Лёгкий ноутбук для работы и учёбы. Батарея держит 8 часов, родная зарядка.",
+    "regionId": "sankt-peterburg",
+    "place": "Санкт-Петербург, Приморский р-н",
+    "postedAt": "2026-11-24",
+    "imageId": "g-laptop-silver-1",
+    "gallery": [
+      "g-laptop-silver-1",
+      "g-laptop-silver-2",
+      "g-laptop-silver-3"
+    ],
+    "video": null,
+    "price": 47000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "delivery"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-console",
+    "slug": "g-console",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "elektronika/pristavki",
+    "title": "Игровая приставка + 2 геймпада",
+    "facts": [
+      "1 ТБ",
+      "2 геймпада",
+      "5 игр"
+    ],
+    "params": [
+      [
+        "Память",
+        "1 ТБ"
+      ],
+      [
+        "Геймпадов",
+        "2"
+      ],
+      [
+        "Игры",
+        "5 дисков"
+      ]
+    ],
+    "description": "Приставка в идеальном состоянии, почищена от пыли. Отдам с играми.",
+    "regionId": "tatarstan",
+    "place": "Казань",
+    "postedAt": "2026-11-23",
+    "imageId": "g-console-1",
+    "gallery": [
+      "g-console-1",
+      "g-console-2"
+    ],
+    "video": null,
+    "price": 39000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-camera-mirrorless",
+    "slug": "g-camera-mirrorless",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "elektronika/foto",
+    "title": "Беззеркальная камера с объективом",
+    "facts": [
+      "24 Мп",
+      "пробег 8 тыс.",
+      "kit 18-55"
+    ],
+    "params": [
+      [
+        "Матрица",
+        "24 Мп"
+      ],
+      [
+        "Пробег",
+        "8 000 кадров"
+      ],
+      [
+        "Объектив",
+        "18–55 мм"
+      ]
+    ],
+    "description": "Камера для блога и путешествий. Две батареи, карта памяти, сумка.",
+    "regionId": "moskovskaya-oblast",
+    "place": "Химки",
+    "postedAt": "2026-11-22",
+    "imageId": "g-camera-mirrorless-1",
+    "gallery": [
+      "g-camera-mirrorless-1",
+      "g-camera-mirrorless-2"
+    ],
+    "video": null,
+    "price": 62000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "mail"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-headphones",
+    "slug": "g-headphones",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "elektronika/audio-video",
+    "title": "Беспроводные наушники с шумоподавлением",
+    "facts": [
+      "ANC",
+      "30 ч",
+      "новые"
+    ],
+    "params": [
+      [
+        "Тип",
+        "Полноразмерные"
+      ],
+      [
+        "Автономность",
+        "30 ч"
+      ],
+      [
+        "Состояние",
+        "Новые"
+      ]
+    ],
+    "description": "Подарили, не подошли. Плёнки на месте, чек есть.",
+    "regionId": "sverdlovskaya-oblast",
+    "place": "Екатеринбург",
+    "postedAt": "2026-11-21",
+    "imageId": "g-headphones-1",
+    "gallery": [
+      "g-headphones-1",
+      "g-headphones-2"
+    ],
+    "video": null,
+    "price": 18500,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "new",
+      "handoff": "delivery"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-tablet",
+    "slug": "g-tablet",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "elektronika/planshety",
+    "title": "Планшет 11\" со стилусом",
+    "facts": [
+      "11\"",
+      "128 ГБ",
+      "стилус"
+    ],
+    "params": [
+      [
+        "Диагональ",
+        "11\""
+      ],
+      [
+        "Память",
+        "128 ГБ"
+      ],
+      [
+        "Стилус",
+        "В комплекте"
+      ]
+    ],
+    "description": "Для рисования и учёбы. Защитное стекло с первого дня.",
+    "regionId": "krasnodarskiy-kray",
+    "place": "Сочи",
+    "postedAt": "2026-11-20",
+    "imageId": "g-tablet-1",
+    "gallery": [
+      "g-tablet-1",
+      "g-tablet-2"
+    ],
+    "video": null,
+    "price": 41000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-sofa-green",
+    "slug": "g-sofa-green",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "dom-i-dacha/mebel/myagkaya",
+    "title": "Диван угловой, велюр, раскладной",
+    "facts": [
+      "260 см",
+      "велюр",
+      "раскладной"
+    ],
+    "params": [
+      [
+        "Ширина",
+        "260 см"
+      ],
+      [
+        "Обивка",
+        "Велюр"
+      ],
+      [
+        "Механизм",
+        "Еврокнижка"
+      ]
+    ],
+    "description": "Диван в отличном состоянии, без животных и детей. Самовывоз с 5 этажа, есть лифт.",
+    "regionId": "moskva",
+    "place": "Москва, ВАО",
+    "postedAt": "2026-11-25",
+    "imageId": "g-sofa-green-1",
+    "gallery": [
+      "g-sofa-green-1",
+      "g-sofa-green-2",
+      "g-sofa-green-3"
+    ],
+    "video": null,
+    "price": 32000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-table-oak",
+    "slug": "g-table-oak",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "dom-i-dacha/mebel",
+    "title": "Обеденный стол из дуба 160×90",
+    "facts": [
+      "массив дуба",
+      "160×90",
+      "6 мест"
+    ],
+    "params": [
+      [
+        "Материал",
+        "Массив дуба"
+      ],
+      [
+        "Размер",
+        "160×90 см"
+      ]
+    ],
+    "description": "Стол ручной работы, покрыт маслом. Есть 4 стула в комплекте за отдельную цену.",
+    "regionId": "leningradskaya-oblast",
+    "place": "Всеволожск",
+    "postedAt": "2026-11-22",
+    "imageId": "g-table-oak-1",
+    "gallery": [
+      "g-table-oak-1",
+      "g-table-oak-2"
+    ],
+    "video": null,
+    "price": 45000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "delivery"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-washer",
+    "slug": "g-washer",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "dom-i-dacha/bytovaya",
+    "title": "Стиральная машина 7 кг",
+    "facts": [
+      "7 кг",
+      "1200 об/мин",
+      "A+++"
+    ],
+    "params": [
+      [
+        "Загрузка",
+        "7 кг"
+      ],
+      [
+        "Отжим",
+        "1200 об/мин"
+      ],
+      [
+        "Класс",
+        "A+++"
+      ]
+    ],
+    "description": "Работает отлично, продаю из-за переезда. Помогу вынести.",
+    "regionId": "novosibirskaya-oblast",
+    "place": "Новосибирск",
+    "postedAt": "2026-11-21",
+    "imageId": "g-washer-1",
+    "gallery": [
+      "g-washer-1",
+      "g-washer-2"
+    ],
+    "video": null,
+    "price": 14000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-monstera",
+    "slug": "g-monstera",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "dom-i-dacha/rasteniya",
+    "title": "Монстера, 1.2 м, в кашпо",
+    "facts": [
+      "1.2 м",
+      "кашпо",
+      "здоровая"
+    ],
+    "params": [
+      [
+        "Высота",
+        "1.2 м"
+      ],
+      [
+        "Кашпо",
+        "Керамика"
+      ]
+    ],
+    "description": "Большая монстера, 8 листьев с прорезями. Отдаю вместе с кашпо.",
+    "regionId": "sankt-peterburg",
+    "place": "Санкт-Петербург, Петроградская",
+    "postedAt": "2026-11-19",
+    "imageId": "g-monstera-1",
+    "gallery": [
+      "g-monstera-1",
+      "g-monstera-2"
+    ],
+    "video": null,
+    "price": 4500,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-lamp-floor",
+    "slug": "g-lamp-floor",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "dom-i-dacha/mebel/osveshchenie",
+    "title": "Торшер с латунной стойкой",
+    "facts": [
+      "160 см",
+      "латунь",
+      "тканевый абажур"
+    ],
+    "params": [
+      [
+        "Высота",
+        "160 см"
+      ],
+      [
+        "Материал",
+        "Латунь, ткань"
+      ]
+    ],
+    "description": "Тёплый свет, лампа E27 в подарок.",
+    "regionId": "moskva",
+    "place": "Москва, ЗАО",
+    "postedAt": "2026-11-18",
+    "imageId": "g-lamp-floor-1",
+    "gallery": [
+      "g-lamp-floor-1"
+    ],
+    "video": null,
+    "price": 7900,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-sneakers",
+    "slug": "g-sneakers",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "lichnye-veshchi/odezhda/obuv",
+    "title": "Кроссовки беговые, 42 размер",
+    "facts": [
+      "42",
+      "новые",
+      "сетка"
+    ],
+    "params": [
+      [
+        "Размер",
+        "42"
+      ],
+      [
+        "Состояние",
+        "Новые"
+      ]
+    ],
+    "description": "Не подошёл размер, носил дома 10 минут. Коробка есть.",
+    "regionId": "tatarstan",
+    "place": "Казань",
+    "postedAt": "2026-11-24",
+    "imageId": "g-sneakers-1",
+    "gallery": [
+      "g-sneakers-1",
+      "g-sneakers-2"
+    ],
+    "video": null,
+    "price": 6500,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "new",
+      "handoff": "mail"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-coat-wool",
+    "slug": "g-coat-wool",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "lichnye-veshchi/odezhda/zhenskaya",
+    "title": "Пальто шерстяное, 44",
+    "facts": [
+      "44",
+      "шерсть 80%",
+      "camel"
+    ],
+    "params": [
+      [
+        "Размер",
+        "44"
+      ],
+      [
+        "Состав",
+        "Шерсть 80%"
+      ],
+      [
+        "Цвет",
+        "Кэмел"
+      ]
+    ],
+    "description": "Носила один сезон, без катышков. Химчистка сделана.",
+    "regionId": "moskva",
+    "place": "Москва, СВАО",
+    "postedAt": "2026-11-23",
+    "imageId": "g-coat-wool-1",
+    "gallery": [
+      "g-coat-wool-1",
+      "g-coat-wool-2"
+    ],
+    "video": null,
+    "price": 9000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-watch",
+    "slug": "g-watch",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "lichnye-veshchi/chasy",
+    "title": "Механические часы, сапфировое стекло",
+    "facts": [
+      "40 мм",
+      "автоподзавод",
+      "коробка"
+    ],
+    "params": [
+      [
+        "Диаметр",
+        "40 мм"
+      ],
+      [
+        "Механизм",
+        "Автоподзавод"
+      ],
+      [
+        "Стекло",
+        "Сапфир"
+      ]
+    ],
+    "description": "Полный комплект, ходят точно. Ремешок кожаный + браслет.",
+    "regionId": "sankt-peterburg",
+    "place": "Санкт-Петербург",
+    "postedAt": "2026-11-22",
+    "imageId": "g-watch-1",
+    "gallery": [
+      "g-watch-1",
+      "g-watch-2"
+    ],
+    "video": null,
+    "price": 28000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-stroller",
+    "slug": "g-stroller",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "lichnye-veshchi/detskie-tovary",
+    "title": "Коляска 2 в 1",
+    "facts": [
+      "2 в 1",
+      "до 3 лет",
+      "дождевик"
+    ],
+    "params": [
+      [
+        "Тип",
+        "2 в 1"
+      ],
+      [
+        "Возраст",
+        "0–3 года"
+      ]
+    ],
+    "description": "Коляска после одного ребёнка. Люлька и прогулочный блок, сумка, дождевик.",
+    "regionId": "krasnodarskiy-kray",
+    "place": "Краснодар",
+    "postedAt": "2026-11-21",
+    "imageId": "g-stroller-1",
+    "gallery": [
+      "g-stroller-1",
+      "g-stroller-2"
+    ],
+    "video": null,
+    "price": 17000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-bike-gravel",
+    "slug": "g-bike-gravel",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "hobbi/velosipedy",
+    "title": "Гравийный велосипед, рама M",
+    "facts": [
+      "рама M",
+      "2×11",
+      "гидравлика"
+    ],
+    "params": [
+      [
+        "Рама",
+        "M (54)"
+      ],
+      [
+        "Трансмиссия",
+        "2×11"
+      ],
+      [
+        "Тормоза",
+        "Гидравлические дисковые"
+      ]
+    ],
+    "description": "Проехал около 2 000 км, ТО в мае. Покрышки новые.",
+    "regionId": "moskovskaya-oblast",
+    "place": "Одинцово",
+    "postedAt": "2026-11-24",
+    "imageId": "g-bike-gravel-1",
+    "gallery": [
+      "g-bike-gravel-1",
+      "g-bike-gravel-2",
+      "g-bike-gravel-3"
+    ],
+    "video": {
+      "src": "/media/g/g-bike-gravel.mp4",
+      "poster": "/media/g/g-bike-gravel-1.webp"
+    },
+    "price": 74000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-guitar",
+    "slug": "g-guitar",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "hobbi/muzyka",
+    "title": "Акустическая гитара с чехлом",
+    "facts": [
+      "ель",
+      "41\"",
+      "чехол"
+    ],
+    "params": [
+      [
+        "Верхняя дека",
+        "Ель"
+      ],
+      [
+        "Размер",
+        "41\""
+      ]
+    ],
+    "description": "Звучит отлично, струны новые. Чехол и каподастр в подарок.",
+    "regionId": "sverdlovskaya-oblast",
+    "place": "Екатеринбург",
+    "postedAt": "2026-11-20",
+    "imageId": "g-guitar-1",
+    "gallery": [
+      "g-guitar-1",
+      "g-guitar-2"
+    ],
+    "video": null,
+    "price": 11500,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-tent",
+    "slug": "g-tent",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "hobbi/sport/turizm",
+    "title": "Палатка 3-местная, 2 входа",
+    "facts": [
+      "3 места",
+      "3.2 кг",
+      "2 тамбура"
+    ],
+    "params": [
+      [
+        "Вместимость",
+        "3 места"
+      ],
+      [
+        "Вес",
+        "3.2 кг"
+      ]
+    ],
+    "description": "Ходили два похода. Целая, без запаха, упаковочный мешок.",
+    "regionId": "leningradskaya-oblast",
+    "place": "Приозерск",
+    "postedAt": "2026-11-19",
+    "imageId": "g-tent-1",
+    "gallery": [
+      "g-tent-1"
+    ],
+    "video": {
+      "src": "/media/g/g-tent.mp4",
+      "poster": "/media/g/g-tent-1.webp"
+    },
+    "price": 9800,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-books-set",
+    "slug": "g-books-set",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "hobbi/knigi",
+    "title": "Собрание книг русской классики, 12 томов",
+    "facts": [
+      "12 томов",
+      "твёрдый переплёт"
+    ],
+    "params": [
+      [
+        "Количество",
+        "12 томов"
+      ],
+      [
+        "Переплёт",
+        "Твёрдый"
+      ]
+    ],
+    "description": "Книги из домашней библиотеки, хорошее состояние.",
+    "regionId": "komi",
+    "place": "Сыктывкар",
+    "postedAt": "2026-11-18",
+    "imageId": "g-books-set-1",
+    "gallery": [
+      "g-books-set-1"
+    ],
+    "video": null,
+    "price": 3500,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-snowboard",
+    "slug": "g-snowboard",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "hobbi/sport",
+    "title": "Сноуборд 156 см + крепления",
+    "facts": [
+      "156 см",
+      "all-mountain",
+      "крепления"
+    ],
+    "params": [
+      [
+        "Длина",
+        "156 см"
+      ],
+      [
+        "Прогиб",
+        "Гибрид"
+      ]
+    ],
+    "description": "Два сезона катания, кант без зазубрин. Крепления размер M.",
+    "regionId": "sverdlovskaya-oblast",
+    "place": "Екатеринбург",
+    "postedAt": "2026-11-25",
+    "imageId": "g-snowboard-1",
+    "gallery": [
+      "g-snowboard-1",
+      "g-snowboard-2"
+    ],
+    "video": null,
+    "price": 19000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "handoff": "pickup"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-corgi",
+    "slug": "g-corgi",
+    "demo": true,
+    "kind": "animal",
+    "categoryPath": "zhivotnye/sobaki",
+    "title": "Щенки корги, 2 месяца",
+    "facts": [
+      "2 мес.",
+      "прививки",
+      "клеймо"
+    ],
+    "params": [
+      [
+        "Порода",
+        "Вельш-корги"
+      ],
+      [
+        "Возраст",
+        "2 месяца"
+      ],
+      [
+        "Документы",
+        "Метрика"
+      ]
+    ],
+    "description": "Щенки приучены к пелёнке, первая прививка. Родители рядом, можно посмотреть.",
+    "regionId": "moskovskaya-oblast",
+    "place": "Подольск",
+    "postedAt": "2026-11-24",
+    "imageId": "g-corgi-1",
+    "gallery": [
+      "g-corgi-1",
+      "g-corgi-2"
+    ],
+    "video": {
+      "src": "/media/g/g-corgi.mp4",
+      "poster": "/media/g/g-corgi-1.webp"
+    },
+    "price": 55000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "breed": "корги",
+      "age": "2",
+      "transfer": "sale"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-kitten",
+    "slug": "g-kitten",
+    "demo": true,
+    "kind": "animal",
+    "categoryPath": "zhivotnye/koshki",
+    "title": "Котёнок в добрые руки",
+    "facts": [
+      "3 мес.",
+      "к лотку",
+      "бесплатно"
+    ],
+    "params": [
+      [
+        "Возраст",
+        "3 месяца"
+      ],
+      [
+        "Окрас",
+        "Рыжий"
+      ]
+    ],
+    "description": "Рыжий котёнок ищет дом. Ест сухой корм, ходит в лоток.",
+    "regionId": "tulskaya-oblast",
+    "place": "Тула",
+    "postedAt": "2026-11-23",
+    "imageId": "g-kitten-1",
+    "gallery": [
+      "g-kitten-1",
+      "g-kitten-2"
+    ],
+    "video": null,
+    "price": null,
+    "priceSuffix": null,
+    "priceLabel": "Даром",
+    "attributes": {
+      "breed": "беспородный",
+      "age": "3",
+      "transfer": "gift"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-aquarium",
+    "slug": "g-aquarium",
+    "demo": true,
+    "kind": "animal",
+    "categoryPath": "zhivotnye/akvarium",
+    "title": "Аквариум 120 л с оборудованием",
+    "facts": [
+      "120 л",
+      "фильтр",
+      "свет"
+    ],
+    "params": [
+      [
+        "Объём",
+        "120 л"
+      ],
+      [
+        "Комплект",
+        "Фильтр, нагреватель, свет"
+      ]
+    ],
+    "description": "Аквариум с растениями и рыбками, можно забрать целиком.",
+    "regionId": "novosibirskaya-oblast",
+    "place": "Бердск",
+    "postedAt": "2026-11-20",
+    "imageId": "g-aquarium-1",
+    "gallery": [
+      "g-aquarium-1"
+    ],
+    "video": {
+      "src": "/media/g/g-aquarium.mp4",
+      "poster": "/media/g/g-aquarium-1.webp"
+    },
+    "price": 12000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "transfer": "sale"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-svc-repair",
+    "slug": "g-svc-repair",
+    "demo": true,
+    "kind": "service",
+    "categoryPath": "uslugi/stroitelstvo-i-remont",
+    "title": "Ремонт квартир под ключ",
+    "facts": [
+      "смета бесплатно",
+      "гарантия 2 года"
+    ],
+    "params": [
+      [
+        "Формат",
+        "Выезд к клиенту"
+      ],
+      [
+        "Опыт",
+        "12 лет"
+      ],
+      [
+        "Гарантия",
+        "2 года"
+      ]
+    ],
+    "description": "Бригада из 5 мастеров: черновые и чистовые работы, электрика, сантехника. Фотоотчёт каждый день.",
+    "regionId": "moskva",
+    "place": "Москва и область",
+    "postedAt": "2026-11-25",
+    "imageId": "g-svc-repair-1",
+    "gallery": [
+      "g-svc-repair-1",
+      "g-svc-repair-2",
+      "g-svc-repair-3"
+    ],
+    "video": null,
+    "price": 6500,
+    "priceSuffix": "за м²",
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "format": "onsite"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-svc-cleaning",
+    "slug": "g-svc-cleaning",
+    "demo": true,
+    "kind": "service",
+    "categoryPath": "uslugi/uborka",
+    "title": "Генеральная уборка квартир",
+    "facts": [
+      "своя химия",
+      "от 3 часов"
+    ],
+    "params": [
+      [
+        "Формат",
+        "Выезд"
+      ],
+      [
+        "Средства",
+        "Свои, гипоаллергенные"
+      ]
+    ],
+    "description": "Мойка окон, кухни, санузлов. Работаем в выходные.",
+    "regionId": "sankt-peterburg",
+    "place": "Санкт-Петербург",
+    "postedAt": "2026-11-24",
+    "imageId": "g-svc-cleaning-1",
+    "gallery": [
+      "g-svc-cleaning-1",
+      "g-svc-cleaning-2"
+    ],
+    "video": null,
+    "price": 4900,
+    "priceSuffix": "от",
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "format": "onsite"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-svc-photo",
+    "slug": "g-svc-photo",
+    "demo": true,
+    "kind": "service",
+    "categoryPath": "uslugi/foto-video",
+    "title": "Фотограф: семейные и love-story съёмки",
+    "facts": [
+      "2 часа",
+      "60 фото",
+      "ретушь"
+    ],
+    "params": [
+      [
+        "Формат",
+        "Выезд"
+      ],
+      [
+        "Срок",
+        "7 дней"
+      ]
+    ],
+    "description": "Снимаю на природе и в студии. Помогу с образами и локацией.",
+    "regionId": "krasnodarskiy-kray",
+    "place": "Краснодар",
+    "postedAt": "2026-11-22",
+    "imageId": "g-svc-photo-1",
+    "gallery": [
+      "g-svc-photo-1",
+      "g-svc-photo-2"
+    ],
+    "video": null,
+    "price": 8000,
+    "priceSuffix": "за час",
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "format": "onsite"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-svc-tutor",
+    "slug": "g-svc-tutor",
+    "demo": true,
+    "kind": "service",
+    "categoryPath": "uslugi/obuchenie",
+    "title": "Репетитор по математике, ЕГЭ",
+    "facts": [
+      "онлайн",
+      "ЕГЭ/ОГЭ",
+      "пробный урок"
+    ],
+    "params": [
+      [
+        "Формат",
+        "Онлайн"
+      ],
+      [
+        "Опыт",
+        "8 лет"
+      ]
+    ],
+    "description": "Готовлю к профильному ЕГЭ. Средний балл учеников — 82.",
+    "regionId": "moskva",
+    "place": "Онлайн",
+    "postedAt": "2026-11-23",
+    "imageId": "g-svc-tutor-1",
+    "gallery": [
+      "g-svc-tutor-1"
+    ],
+    "video": null,
+    "price": 2000,
+    "priceSuffix": "за 60 мин",
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "format": "remote"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-svc-moving",
+    "slug": "g-svc-moving",
+    "demo": true,
+    "kind": "service",
+    "categoryPath": "uslugi/perevozki",
+    "title": "Грузоперевозки и грузчики",
+    "facts": [
+      "газель 4 м",
+      "грузчики",
+      "без выходных"
+    ],
+    "params": [
+      [
+        "Формат",
+        "Выезд"
+      ],
+      [
+        "Машина",
+        "Газель 4 м"
+      ]
+    ],
+    "description": "Переезды квартир и офисов, вывоз мебели. Упаковочные материалы.",
+    "regionId": "tatarstan",
+    "place": "Казань",
+    "postedAt": "2026-11-21",
+    "imageId": "g-svc-moving-1",
+    "gallery": [
+      "g-svc-moving-1"
+    ],
+    "video": null,
+    "price": 1200,
+    "priceSuffix": "за час",
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "format": "onsite"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-svc-manicure",
+    "slug": "g-svc-manicure",
+    "demo": true,
+    "kind": "service",
+    "categoryPath": "uslugi/krasota",
+    "title": "Маникюр с покрытием",
+    "facts": [
+      "стерилизация",
+      "2 часа"
+    ],
+    "params": [
+      [
+        "Формат",
+        "У мастера"
+      ],
+      [
+        "Опыт",
+        "5 лет"
+      ]
+    ],
+    "description": "Уютный кабинет у метро, все инструменты проходят стерилизацию.",
+    "regionId": "sverdlovskaya-oblast",
+    "place": "Екатеринбург",
+    "postedAt": "2026-11-20",
+    "imageId": "g-svc-manicure-1",
+    "gallery": [
+      "g-svc-manicure-1"
+    ],
+    "video": null,
+    "price": 1800,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "format": "visit"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-job-barista",
+    "slug": "g-job-barista",
+    "demo": true,
+    "kind": "job",
+    "categoryPath": "rabota/vakansii/servis",
+    "title": "Бариста в кофейню",
+    "facts": [
+      "2/2",
+      "без опыта",
+      "обучение"
+    ],
+    "params": [
+      [
+        "График",
+        "2/2"
+      ],
+      [
+        "Опыт",
+        "Не нужен"
+      ],
+      [
+        "Оформление",
+        "По ТК"
+      ]
+    ],
+    "description": "Кофейня в центре ищет бариста. Обучим, бесплатный обед, чаевые.",
+    "regionId": "moskva",
+    "place": "Москва, м. Китай-город",
+    "postedAt": "2026-11-25",
+    "imageId": "g-job-barista-1",
+    "gallery": [
+      "g-job-barista-1"
+    ],
+    "video": null,
+    "price": 75000,
+    "priceSuffix": "в месяц",
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "schedule": "shift",
+      "experience": "none",
+      "employment": "full",
+      "workFormat": "office",
+      "salary": "75000"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-job-driver",
+    "slug": "g-job-driver",
+    "demo": true,
+    "kind": "job",
+    "categoryPath": "rabota/vakansii",
+    "title": "Водитель-курьер на авто компании",
+    "facts": [
+      "5/2",
+      "кат. B",
+      "от 2 лет"
+    ],
+    "params": [
+      [
+        "График",
+        "5/2"
+      ],
+      [
+        "Опыт",
+        "От 1 года"
+      ],
+      [
+        "Права",
+        "Категория B"
+      ]
+    ],
+    "description": "Развоз заказов по городу, машина компании, топливная карта.",
+    "regionId": "sankt-peterburg",
+    "place": "Санкт-Петербург",
+    "postedAt": "2026-11-24",
+    "imageId": "g-job-driver-1",
+    "gallery": [
+      "g-job-driver-1"
+    ],
+    "video": null,
+    "price": 95000,
+    "priceSuffix": "в месяц",
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "schedule": "full",
+      "experience": "1",
+      "employment": "full",
+      "workFormat": "office",
+      "salary": "95000"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-job-frontend",
+    "slug": "g-job-frontend",
+    "demo": true,
+    "kind": "job",
+    "categoryPath": "rabota/vakansii/it",
+    "title": "Frontend-разработчик (React)",
+    "facts": [
+      "удалённо",
+      "от 3 лет",
+      "гибкий график"
+    ],
+    "params": [
+      [
+        "Формат",
+        "Удалённо"
+      ],
+      [
+        "Опыт",
+        "От 3 лет"
+      ],
+      [
+        "Стек",
+        "React, TypeScript"
+      ]
+    ],
+    "description": "Продуктовая команда, задачи по маркетплейсу. Белая зарплата, ДМС.",
+    "regionId": "tatarstan",
+    "place": "Удалённо",
+    "postedAt": "2026-11-23",
+    "imageId": "g-job-frontend-1",
+    "gallery": [
+      "g-job-frontend-1"
+    ],
+    "video": null,
+    "price": 250000,
+    "priceSuffix": "в месяц",
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "schedule": "flex",
+      "experience": "3",
+      "employment": "full",
+      "workFormat": "remote",
+      "salary": "250000"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-tires",
+    "slug": "g-tires",
+    "demo": true,
+    "kind": "goods",
+    "categoryPath": "zapchasti/shiny",
+    "title": "Зимние шины R17, комплект",
+    "facts": [
+      "R17",
+      "225/65",
+      "шипы"
+    ],
+    "params": [
+      [
+        "Размер",
+        "225/65 R17"
+      ],
+      [
+        "Сезон",
+        "Зима, шипы"
+      ],
+      [
+        "Остаток",
+        "90%"
+      ]
+    ],
+    "description": "Один сезон, шипы на месте. Хранились в чехлах.",
+    "regionId": "sverdlovskaya-oblast",
+    "place": "Екатеринбург",
+    "postedAt": "2026-11-22",
+    "imageId": "g-tires-1",
+    "gallery": [
+      "g-tires-1",
+      "g-tires-2"
+    ],
+    "video": null,
+    "price": 28000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "condition": "used",
+      "brand": "R17"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
+    "id": "demo-g-coffee-machine-pro",
+    "slug": "g-coffee-machine-pro",
+    "demo": true,
+    "kind": "equipment",
+    "categoryPath": "biznes/oborudovanie",
+    "title": "Профессиональная кофемашина, 2 группы",
+    "facts": [
+      "2 группы",
+      "2021",
+      "после ТО"
+    ],
+    "params": [
+      [
+        "Группы",
+        "2"
+      ],
+      [
+        "Год",
+        "2021"
+      ],
+      [
+        "Бойлер",
+        "11 л"
+      ]
+    ],
+    "description": "Кофемашина из закрывшейся кофейни. Полное ТО, кофемолка отдельно.",
+    "regionId": "moskva",
+    "place": "Москва, ЦАО",
+    "postedAt": "2026-11-21",
+    "imageId": "g-coffee-machine-pro-1",
+    "gallery": [
+      "g-coffee-machine-pro-1"
+    ],
+    "video": null,
+    "price": 210000,
+    "priceSuffix": null,
+    "priceLabel": "Цена не указана",
+    "attributes": {
+      "deal": "sale",
+      "year": "2021"
+    },
+    "originNote": "DEMO: тестовая карточка для проверки интерфейса. Это не объявление, не продавец и не реальная цена."
+  },
+  {
     "id": "demo-car-coupe",
     "slug": "car-coupe",
     "demo": true,

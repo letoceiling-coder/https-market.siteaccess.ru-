@@ -56,14 +56,14 @@ async function SearchScreen({ searchParams }: { searchParams: Search }) {
       <ClientForm action="/search" className="mt-3 hidden max-w-3xl gap-2 lg:flex" role="search">
         <label className="sr-only" htmlFor="q">Запрос</label>
         <div className="relative flex-1">
-          <Search className="pointer-events-none absolute top-1/2 left-3 size-5 -translate-y-1/2 text-[#8b8b8b]" aria-hidden="true" />
-          <input id="q" name="q" defaultValue={query} placeholder="Что вы ищете?" className="h-12 w-full rounded-xl border border-[#cfcfcf] bg-white pr-3 pl-10 text-[16px] outline-none focus:border-primary" />
+          <Search className="pointer-events-none absolute top-1/2 left-3 size-5 -translate-y-1/2 text-muted-foreground" aria-hidden="true" />
+          <input id="q" name="q" defaultValue={query} placeholder="Что вы ищете?" className="h-12 w-full rounded-xl border border-input-strong bg-white pr-3 pl-10 text-[16px] outline-none focus:border-primary" />
         </div>
         {sort !== "new" ? <input type="hidden" name="sort" value={sort} /> : null}
         <button className="h-12 rounded-xl bg-primary px-6 text-[15px] font-semibold text-white" type="submit">Найти</button>
       </ClientForm>
 
-      {!query ? <p className="mt-6 text-[#767676]">Введите название товара, услуги или раздела.</p> : null}
+      {!query ? <p className="mt-6 text-muted-foreground">Введите название товара, услуги или раздела.</p> : null}
       {empty ? (
         <div className="mt-6">
           <EmptyState title="Ничего не нашлось" text="Попробуйте другое слово или откройте каталог." action={<Link href="/catalog" className="inline-flex h-10 items-center rounded-xl bg-primary px-4 text-sm font-semibold text-white">Все категории</Link>} />
@@ -83,7 +83,7 @@ async function SearchScreen({ searchParams }: { searchParams: Search }) {
                   key={id}
                   href={`/search?q=${encodeURIComponent(query)}&sort=${id}`}
                   aria-current={sort === id ? "true" : undefined}
-                  className={sort === id ? "rounded-lg bg-[#222] px-3 py-1.5 text-[13px] text-white" : "rounded-lg bg-[#f2f1f0] px-3 py-1.5 text-[13px] hover:text-primary"}
+                  className={sort === id ? "rounded-lg bg-foreground px-3 py-1.5 text-[13px] text-white" : "rounded-lg bg-tile px-3 py-1.5 text-[13px] hover:text-primary"}
                 >
                   {label}
                 </Link>
@@ -97,11 +97,11 @@ async function SearchScreen({ searchParams }: { searchParams: Search }) {
       {sections.length > 0 ? (
         <section className="mt-8" aria-labelledby="sections">
           <h2 id="sections" className="mb-2 text-[20px] leading-6 font-bold">Разделы и материалы</h2>
-          <ul className="max-w-3xl divide-y divide-[#f0f0f0]">
+          <ul className="max-w-3xl divide-y divide-border">
             {sections.map((item) => (
               <li key={`${item.type}-${item.id}`}>
                 <Link href={item.href} className="block py-3 hover:text-primary">
-                  <span className="block text-xs text-[#767676]">{labels[item.type]}</span>
+                  <span className="block text-xs text-muted-foreground">{labels[item.type]}</span>
                   <span className="text-[16px] font-medium">{item.title}</span>
                 </Link>
               </li>

@@ -70,6 +70,8 @@ export interface ClassifiedDemo {
   postedAt: string;
   imageId: string;
   gallery: string[];
+  /** Optional short clip shown first in the gallery. */
+  video?: { src: string; poster: string } | null;
   price: number | null;
   priceSuffix?: string;
   priceLabel: string;

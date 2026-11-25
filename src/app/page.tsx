@@ -6,7 +6,7 @@ import { PageSkeleton } from "@/components/site/states";
 import type { ClassifiedDemo } from "@/domain/classified";
 import { getDemos } from "@/services/classified";
 
-const FEED_SIZE = 30;
+const FEED_SIZE = 60;
 
 export default function HomePage() {
   return (

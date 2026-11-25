@@ -26,11 +26,11 @@ export function MapFilterBar({
           value={query}
           onChange={(event) => onQuery(event.target.value)}
           placeholder="Город, адрес или категория"
-          className="h-11 w-full rounded-xl border border-[#dcdcdc] bg-white px-3 text-[15px] outline-none focus:border-primary"
+          className="h-11 w-full rounded-xl border border-border bg-white px-3 text-[15px] outline-none focus:border-primary"
         />
       </label>
       <div className="flex items-center gap-2 overflow-x-auto pb-0.5 [scrollbar-width:none]">
-        <button type="button" onClick={onLocate} className="flex h-9 shrink-0 items-center gap-1.5 rounded-full border border-[#dcdcdc] bg-white px-3 text-[13px] font-medium shadow-sm">
+        <button type="button" onClick={onLocate} className="flex h-9 shrink-0 items-center gap-1.5 rounded-full border border-border bg-white px-3 text-[13px] font-medium shadow-sm">
           <Crosshair className="size-4 text-primary" aria-hidden="true" /> Рядом
         </button>
         <Chip active={kind === "all"} onClick={() => onKind("all")}>
@@ -54,7 +54,7 @@ function Chip({ active, onClick, children }: { active: boolean; onClick: () => v
       aria-pressed={active}
       className={cn(
         "h-9 shrink-0 rounded-full border px-3.5 text-[13px] font-medium shadow-sm",
-        active ? "border-primary bg-primary text-white" : "border-[#dcdcdc] bg-white text-[#222]",
+        active ? "border-primary bg-primary text-white" : "border-border bg-white text-foreground",
       )}
     >
       {children}

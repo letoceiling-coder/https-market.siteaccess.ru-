@@ -24,14 +24,14 @@ export function FavoriteButton({
         type="button"
         aria-pressed={active}
         aria-label={active ? `Убрать из избранного: ${label}` : `В избранное: ${label}`}
-        className="grid size-8 place-items-center rounded-full bg-white/95 text-foreground shadow-sm transition hover:scale-105"
+        className="press grid size-9 place-items-center rounded-full bg-white/90 text-foreground shadow-sm backdrop-blur-sm transition hover:scale-105"
         onClick={(event) => {
           event.preventDefault();
           event.stopPropagation();
           favorites.toggle(id);
         }}
       >
-        <Heart className={active ? "size-4 fill-primary text-primary" : "size-4"} aria-hidden="true" />
+        <Heart className={active ? "size-[18px] fill-primary text-primary" : "size-[18px]"} aria-hidden="true" />
       </button>
     );
   }

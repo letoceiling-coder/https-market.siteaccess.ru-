@@ -26,6 +26,9 @@ export function Photo({
 }
 
 export function PhotoCredit({ media }: { media: MediaAsset }) {
+  if (!media.authorUrl) {
+    return <p className="text-xs leading-5 text-muted-foreground">Фото сгенерировано нейросетью для тестового объявления.</p>;
+  }
   return (
     <p className="text-xs leading-5 text-muted-foreground">
       Фото:{" "}

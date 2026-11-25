@@ -23,9 +23,9 @@ export function RegionFeed({
   const visible = matchesRegion(items, region.id);
 
   return (
-    <section className="mt-5" aria-label={title}>
-      <div className="mb-3 flex flex-wrap items-center gap-x-3 gap-y-1">
-        <h2 className="text-[20px] leading-6 font-bold sm:text-[22px] sm:leading-7">{title}</h2>
+    <section className="mt-6" aria-label={title}>
+      <div className="mb-4 flex flex-wrap items-center gap-x-3 gap-y-2">
+        <h2 className="text-[19px] leading-6 font-semibold sm:text-[24px] sm:leading-8">{title}</h2>
         {items.length > 0 ? <DemoBanner /> : null}
       </div>
       {visible.length > 0 ? (

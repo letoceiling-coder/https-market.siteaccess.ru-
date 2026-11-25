@@ -1,5 +1,4 @@
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
 import { Suspense } from "react";
 import "./globals.css";
 import { BottomNav } from "@/components/site/bottom-nav";
@@ -10,19 +9,15 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { getRegions, getSearchIndex } from "@/services/catalog";
 import { getDemos, getTaxonChildren, getTaxonRoots } from "@/services/classified";
 
-const inter = Inter({
-  subsets: ["latin", "cyrillic"],
-  variable: "--font-inter",
-});
-
 export const metadata: Metadata = {
-  metadataBase: new URL("https://helphomes.ru"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://market.siteaccess.ru"),
   title: {
     default: "HELP HOMES — объявления",
     template: "%s — HELP HOMES",
   },
   description:
     "Каталог объявлений: жильё, транспорт, работа, услуги и товары. Живые предложения появляются после модерации.",
+  appleWebApp: { capable: true, title: "HELP HOMES", statusBarStyle: "default" },
   openGraph: {
     locale: "ru_RU",
     siteName: "HELP HOMES",
@@ -34,6 +29,7 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover",
+  themeColor: "#0d6b57",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -57,8 +53,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   ];
 
   return (
-    <html lang="ru" className={`${inter.variable} h-full antialiased`}>
-      <body className="flex min-h-full flex-col bg-background pb-[calc(3.5rem+env(safe-area-inset-bottom))] lg:pb-0">
+    <html lang="ru" className="h-full antialiased">
+      <body className="flex min-h-full flex-col bg-background pb-[calc(5.5rem+env(safe-area-inset-bottom))] lg:pb-0">
         <a
           href="#content"
           className="sr-only focus:not-sr-only focus:absolute focus:top-3 focus:left-3 focus:z-50 focus:rounded-lg focus:bg-card focus:px-4 focus:py-2"

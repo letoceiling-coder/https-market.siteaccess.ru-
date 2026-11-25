@@ -41,7 +41,7 @@ export function MapResultsSheet({
   return (
     <section
       className={cn(
-        "absolute inset-x-0 bottom-0 z-20 flex flex-col rounded-t-2xl border-t border-[#ededed] bg-white shadow-[0_-8px_24px_rgba(0,0,0,0.12)] transition-[height] duration-200",
+        "absolute inset-x-0 bottom-0 z-20 flex flex-col rounded-t-2xl border-t border-border bg-white shadow-[0_-8px_24px_rgba(0,0,0,0.12)] transition-[height] duration-200",
         height,
       )}
       aria-label="Результаты на карте"
@@ -61,10 +61,10 @@ export function MapResultsSheet({
           }
         }}
       >
-        <span className="mx-auto block h-1 w-10 rounded-full bg-[#d0d0d0]" />
+        <span className="mx-auto block h-1 w-10 rounded-full bg-input-strong" />
         <p className="mt-2 px-4 text-sm font-semibold">
           Найдено {count} {plural(count)}
-          {demo ? <span className="font-normal text-[#767676]"> (DEMO)</span> : null}
+          {demo ? <span className="font-normal text-muted-foreground"> (DEMO)</span> : null}
         </p>
       </div>
       <div className={cn("min-h-0 flex-1 overflow-y-auto px-3 pb-3", state === "collapsed" && "hidden")}>{children}</div>

@@ -9,7 +9,7 @@ export function FilterDrawer({ children }: { children: ReactNode }) {
     <>
       <button
         type="button"
-        className="mb-3 flex h-11 w-full items-center justify-center rounded-xl bg-[#f2f1f0] text-sm font-medium lg:hidden"
+        className="mb-3 flex h-11 w-full items-center justify-center rounded-xl bg-tile text-sm font-medium lg:hidden"
         onClick={() => setOpen(true)}
       >
         Фильтры и сортировка
