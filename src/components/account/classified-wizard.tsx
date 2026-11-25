@@ -8,6 +8,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { readListings, upsertListing, type ListingDraft } from "@/components/account/listing-store";
 import type { CategoryAttribute } from "@/domain/classified";
 import { useClientReady } from "@/hooks/storage";
+import { ScrollRail } from "@/components/site/scroll-rail";
 
 export type WizardCategory = {
   id: string;
@@ -67,15 +68,19 @@ export function ClassifiedWizard({
 
   return (
     <div className="space-y-5">
-      <ol className="flex gap-2 overflow-x-auto pb-1" aria-label="Шаги объявления">
+      <ScrollRail label="Шаги объявления" trackClassName="gap-2 py-1">
         {steps.map((label, index) => (
-          <li key={label}>
-            <button type="button" className="rounded-full border border-border bg-white px-3 py-2 text-sm whitespace-nowrap" aria-current={index === step ? "step" : undefined} onClick={() => setStep(index)}>
-              {index + 1}. {label}
-            </button>
-          </li>
+          <button
+            key={label}
+            type="button"
+            className={index === step ? "shrink-0 rounded-full bg-primary px-3.5 py-2 text-sm font-medium whitespace-nowrap text-white" : "shrink-0 rounded-full border border-border bg-card px-3.5 py-2 text-sm whitespace-nowrap"}
+            aria-current={index === step ? "step" : undefined}
+            onClick={() => setStep(index)}
+          >
+            {index + 1}. {label}
+          </button>
         ))}
-      </ol>
+      </ScrollRail>
       {step === 0 ? (
         <Field label="Категория">
           <select className="h-11 w-full rounded-lg border border-input bg-white px-3" value={draft.category} onChange={(event) => patch({ category: event.target.value, attributes: {} })}>

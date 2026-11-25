@@ -7,6 +7,7 @@ import { ClientForm } from "@/components/site/client-form";
 import { useScrollMemory } from "@/hooks/scroll-memory";
 import type { CategoryAttribute } from "@/domain/classified";
 import { cn } from "cn";
+import { ScrollRail } from "@/components/site/scroll-rail";
 
 type Values = Record<string, string>;
 
@@ -67,7 +68,7 @@ export function FilterWorkspace({
 
   return (
     <div>
-      <div className="-mx-4 mb-3 flex gap-2 overflow-x-auto px-4 [scrollbar-width:none] lg:mx-0 lg:flex-wrap lg:overflow-visible lg:px-0">
+      <ScrollRail label="Фильтры" arrows={false} className="-mx-4 mb-3 lg:mx-0" trackClassName="gap-2 px-4 lg:flex-wrap lg:px-0">
         <button
           type="button"
           onClick={() => setOpen(true)}
@@ -88,7 +89,7 @@ export function FilterWorkspace({
             <X className="size-3.5" aria-hidden="true" />
           </button>
         ))}
-      </div>
+      </ScrollRail>
 
       <div className="hidden lg:block">
         <ClientForm action={action} className="space-y-3 rounded-2xl bg-tile p-3">

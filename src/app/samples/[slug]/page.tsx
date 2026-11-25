@@ -16,6 +16,7 @@ import { PageSkeleton } from "@/components/site/states";
 import { formatListingPrice, formatPostedAt } from "@/domain/format";
 import { getMedia, getRegion } from "@/services/catalog";
 import { getDemo, getDemos, getDemoSlugs, getTaxon, getTaxonBreadcrumb } from "@/services/classified";
+import { ScrollRail } from "@/components/site/scroll-rail";
 
 type Params = Promise<{ slug: string }>;
 
@@ -84,11 +85,11 @@ async function SampleScreen({ params }: { params: Params }) {
             </div>
 
             {item.facts.length > 0 ? (
-              <ul className="no-scrollbar -mx-4 mt-4 flex gap-2 overflow-x-auto px-4 lg:mx-0 lg:mt-5 lg:flex-wrap lg:px-0" aria-label="Коротко">
+              <ScrollRail label="Коротко" arrows={false} className="-mx-4 mt-4 lg:mx-0 lg:mt-5" trackClassName="gap-2 px-4 pb-0.5 lg:flex-wrap lg:px-0">
                 {item.facts.map((fact) => (
-                  <li key={fact} className="shrink-0 rounded-2xl bg-card px-3.5 py-2 text-[14px] font-medium whitespace-nowrap shadow-[0_1px_0_var(--border)]">{fact}</li>
+                  <span key={fact} className="shrink-0 rounded-2xl bg-card px-3.5 py-2 text-[14px] font-medium whitespace-nowrap shadow-[0_1px_0_var(--border)]">{fact}</span>
                 ))}
-              </ul>
+              </ScrollRail>
             ) : null}
 
             <section className="mt-6 rounded-3xl bg-card p-4 sm:p-5" aria-labelledby="params">

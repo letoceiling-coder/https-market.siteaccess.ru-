@@ -8,6 +8,7 @@ import { FilterWorkspace } from "@/components/classified/filter-workspace";
 import { SaveFilterButton } from "@/components/classified/save-filter";
 import { Crumbs } from "@/components/site/crumbs";
 import { EmptyState, PageSkeleton } from "@/components/site/states";
+import { ScrollRail } from "@/components/site/scroll-rail";
 import {
   demosForNode,
   filterDemos,
@@ -76,15 +77,17 @@ async function CatalogNode({ params, searchParams }: { params: Params; searchPar
         </p>
       </div>
       {children.length > 0 ? (
-        <ul className="mt-3 flex gap-2 overflow-x-auto pb-1">
+        <ScrollRail label="Подкатегории" className="-mx-4 mt-3 lg:mx-0" trackClassName="gap-2 px-4 py-1 lg:px-0">
           {children.map((child) => (
-            <li key={child.id}>
-              <Link href={`/catalog/${child.path}`} className="inline-flex h-8 items-center rounded-lg bg-tile px-3 text-[13px] whitespace-nowrap hover:text-primary">
-                {child.name}
-              </Link>
-            </li>
+            <Link
+              key={child.id}
+              href={`/catalog/${child.path}`}
+              className="press inline-flex h-9 shrink-0 items-center rounded-full bg-card px-4 text-[14px] font-medium whitespace-nowrap shadow-[0_1px_0_var(--border)] hover:text-primary"
+            >
+              {child.name}
+            </Link>
           ))}
-        </ul>
+        </ScrollRail>
       ) : null}
 
       <div className="mt-4 grid gap-4 lg:grid-cols-[260px_1fr]">

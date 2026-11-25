@@ -2,6 +2,7 @@ import { Crosshair } from "lucide-react";
 import type { ListingKind } from "@/domain/classified";
 import { MAP_KIND_LABEL } from "@/services/map-data";
 import { cn } from "cn";
+import { ScrollRail } from "@/components/site/scroll-rail";
 
 export function MapFilterBar({
   kinds,
@@ -29,7 +30,7 @@ export function MapFilterBar({
           className="h-11 w-full rounded-xl border border-border bg-white px-3 text-[15px] outline-none focus:border-primary"
         />
       </label>
-      <div className="flex items-center gap-2 overflow-x-auto pb-0.5 [scrollbar-width:none]">
+      <ScrollRail label="Тип объявлений" trackClassName="items-center gap-2 pb-0.5">
         <button type="button" onClick={onLocate} className="flex h-9 shrink-0 items-center gap-1.5 rounded-full border border-border bg-white px-3 text-[13px] font-medium shadow-sm">
           <Crosshair className="size-4 text-primary" aria-hidden="true" /> Рядом
         </button>
@@ -41,7 +42,7 @@ export function MapFilterBar({
             {MAP_KIND_LABEL[item]}
           </Chip>
         ))}
-      </div>
+      </ScrollRail>
     </div>
   );
 }

@@ -3,6 +3,7 @@
 import { ChevronLeft, ChevronRight, Pause, Play } from "lucide-react";
 import Image from "next/image";
 import { useRef, useState } from "react";
+import { useDragScroll } from "@/hooks/drag-scroll";
 import { cn } from "cn";
 
 export interface GalleryItem {
@@ -17,6 +18,7 @@ export interface GalleryItem {
 export function PhotoSwipe({ items }: { items: GalleryItem[] }) {
   const track = useRef<HTMLDivElement>(null);
   const [index, setIndex] = useState(0);
+  useDragScroll(track, { wheel: false, snap: true });
   if (items.length === 0) return null;
 
   function goTo(next: number) {
@@ -30,7 +32,7 @@ export function PhotoSwipe({ items }: { items: GalleryItem[] }) {
     <div className="group/gallery relative">
       <div
         ref={track}
-        className="no-scrollbar flex aspect-[4/3] snap-x snap-mandatory overflow-x-auto rounded-3xl bg-tile max-lg:-mx-4 max-lg:aspect-[4/4.2] max-lg:rounded-none sm:max-lg:aspect-[16/10]"
+        className="no-scrollbar flex aspect-[4/3] cursor-grab snap-x snap-mandatory overflow-x-auto overscroll-x-contain [&_img]:pointer-events-none rounded-3xl bg-tile max-lg:-mx-4 max-lg:aspect-[4/4.2] max-lg:rounded-none sm:max-lg:aspect-[16/10]"
         onScroll={(event) => {
           const element = event.currentTarget;
           setIndex(Math.round(element.scrollLeft / Math.max(1, element.clientWidth)));

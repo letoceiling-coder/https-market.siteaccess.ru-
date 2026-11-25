@@ -2,6 +2,7 @@ import { ArrowRight, LayoutGrid, Map } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { getMedia } from "@/services/catalog";
+import { ScrollRail } from "@/components/site/scroll-rail";
 
 /**
  * Category mosaic.
@@ -40,7 +41,7 @@ export function CategoryMosaic() {
     <section aria-label="Категории">
       <MobileRail />
       <div className="relative hidden lg:block">
-        <div className="grid snap-x snap-mandatory auto-cols-[minmax(136px,42vw)] grid-flow-col grid-rows-2 gap-2 overflow-x-auto px-3 pb-2 [scrollbar-width:thin] sm:auto-cols-[148px] sm:px-4 lg:mx-0 lg:auto-cols-auto lg:grid-flow-row lg:grid-cols-4 lg:grid-rows-none lg:gap-1.5 lg:overflow-visible lg:px-0 lg:pb-0 lg:[scrollbar-width:none] xl:grid-cols-[repeat(4,minmax(0,1fr))_332px] [&::-webkit-scrollbar]:h-1">
+        <div className="grid snap-x snap-mandatory auto-cols-[minmax(136px,42vw)] grid-flow-col grid-rows-2 gap-2 px-3 pb-2 sm:auto-cols-[148px] sm:px-4 lg:mx-0 lg:auto-cols-auto lg:grid-flow-row lg:grid-cols-4 lg:grid-rows-none lg:gap-1.5 lg:overflow-visible lg:px-0 lg:pb-0 xl:grid-cols-[repeat(4,minmax(0,1fr))_332px]">
           {tiles.map((tile, position) => {
             const media = getMedia(tile.imageId);
             return (
@@ -112,37 +113,37 @@ export function CategoryMosaic() {
 function MobileRail() {
   return (
     <nav aria-label="Категории" className="-mx-3 sm:-mx-4 lg:hidden">
-      <ul className="no-scrollbar flex snap-x gap-3 overflow-x-auto px-4 pt-1 pb-1">
-        <li className="snap-start">
+      <ScrollRail trackClassName="snap-x gap-3 px-4 pt-1 pb-1">
+        <div className="shrink-0 snap-start">
           <Link href="/map" className="press flex w-[68px] flex-col items-center gap-1.5 text-center">
             <span className="grid size-[64px] place-items-center rounded-[22px] bg-primary text-white">
               <Map className="size-6" aria-hidden="true" />
             </span>
             <span className="text-[11.5px] leading-[14px] font-medium">На карте</span>
           </Link>
-        </li>
+        </div>
         {tiles.map((tile) => {
           const media = getMedia(tile.imageId);
           return (
-            <li key={`${tile.href}-${tile.title}`} className="snap-start">
+            <div key={`${tile.href}-${tile.title}`} className="shrink-0 snap-start">
               <Link href={tile.href} className="press flex w-[68px] flex-col items-center gap-1.5 text-center">
                 <span className="relative size-[64px] overflow-hidden rounded-[22px] bg-tile">
                   <Image src={media.src} alt="" fill sizes="64px" className="object-cover" />
                 </span>
                 <span className="line-clamp-2 text-[11.5px] leading-[14px] font-medium hyphens-none">{tile.title}</span>
               </Link>
-            </li>
+            </div>
           );
         })}
-        <li className="snap-start">
+        <div className="shrink-0 snap-start">
           <Link href="/catalog" className="press flex w-[68px] flex-col items-center gap-1.5 text-center">
             <span className="grid size-[64px] place-items-center rounded-[22px] bg-accent text-primary">
               <LayoutGrid className="size-6" aria-hidden="true" />
             </span>
             <span className="text-[11.5px] leading-[14px] font-medium">Все</span>
           </Link>
-        </li>
-      </ul>
+        </div>
+      </ScrollRail>
     </nav>
   );
 }
